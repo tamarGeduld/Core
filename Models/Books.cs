@@ -1,4 +1,4 @@
-namespace lesson2.Models;
+namespace Lesson3.Models;
 
 public class Books
 {

@@ -31,3 +31,40 @@ Z:\B\גדולד תמר\זילברברג\lesson2\obj\Debug\net9.0\refint\lesson2.
 Z:\B\גדולד תמר\זילברברג\lesson2\obj\Debug\net9.0\lesson2.pdb
 Z:\B\גדולד תמר\זילברברג\lesson2\obj\Debug\net9.0\lesson2.genruntimeconfig.cache
 Z:\B\גדולד תמר\זילברברג\lesson2\obj\Debug\net9.0\ref\lesson2.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\appsettings.Development.json
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\appsettings.json
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.staticwebassets.endpoints.json
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.exe
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.deps.json
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.runtimeconfig.json
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.pdb
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.csproj.AssemblyReference.cache
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.GeneratedMSBuildEditorConfig.editorconfig
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.AssemblyInfoInputs.cache
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.AssemblyInfo.cs
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.csproj.CoreCompileInputs.cache
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.MvcApplicationPartsAssemblyInfo.cs
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.MvcApplicationPartsAssemblyInfo.cache
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.sourcelink.json
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\scopedcss\bundle\lesson2.styles.css
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets.build.json
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets.development.json
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets\msbuild.lesson2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets\msbuild.lesson2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets\msbuild.build.lesson2.props
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.lesson2.props
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.lesson2.props
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\staticwebassets.pack.json
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.csproj.Up2Date
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.dll
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\refint\lesson2.dll
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.pdb
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.genruntimeconfig.cache
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\ref\lesson2.dll

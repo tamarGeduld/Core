@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
-using lesson2.Models;
+using Lesson3.Models;
+using Lesson3.Interfaces;
 
-namespace lesson2.Services;
+namespace Lesson3.Services;
 
-public static class BookService 
+public  class BookServiceConst :IBookService
 {
-    private static List<Books> list;
+    private  List<Books> list;
 
-    static BookService()
+    public BookServiceConst()
     {
         list = new List<Books>
         {
@@ -16,18 +17,18 @@ public static class BookService
         };
     }
 
-    public static List<Books> Get()
+    public  List<Books> Get()
     {
         return list;
     }
 
-    public static Books Get(int id)
+    public  Books Get(int id)
     {
         var books = list.FirstOrDefault(p => p.Id == id);
         return books;
     }
     
-    public static int Insert(Books newBook)
+    public  int Insert(Books newBook)
     {
         if (newBook == null 
             || string.IsNullOrWhiteSpace(newBook.Name))
@@ -41,7 +42,7 @@ public static class BookService
     }
 
      
-    public static bool Update(int id, Books newBook)
+    public  bool Update(int id, Books newBook)
     {
         if (newBook == null 
             || string.IsNullOrWhiteSpace(newBook.Name)
@@ -63,7 +64,7 @@ public static class BookService
         return true;
     }
 
-      public static bool Delete(int id)
+      public  bool Delete(int id)
     {
         var book = list.FirstOrDefault(p => p.Id == id);
         if (book == null)
@@ -75,4 +76,14 @@ public static class BookService
         return true;
     }   
    
+}
+
+
+public static class BookUtilities
+{
+    public static void AddBookConst(this IServiceCollection services)
+    {
+        services.AddSingleton<IBookService, BookServiceConst>();
+
+    }
 }
