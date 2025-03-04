@@ -1,6 +1,9 @@
 using Lesson3.Services;
 using Lesson3.Interfaces;
 using Microsoft.OpenApi.Models;
+using Middlewares.FirstMiddleware;
+using Middlewares.LogMiddleware;
+using Middlewares.ErrorMiddleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +29,15 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty; // קבעי את Swagger UI בשורש האפליקציה
     });
 }
+
+app.UseFirstMiddleware();
+app.UseLogMiddleware();
+app.UseErrorMiddleware();
+
+
+app.Map("/test1", (a) => 
+    a.Run(async context => 
+    await context.Response.WriteAsync("our test1-map terminal middleware!\n")));
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
