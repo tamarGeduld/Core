@@ -8,7 +8,7 @@ private RequestDelegate n;
     }
 
     public async Task Invoke(HttpContext c){
-        await c.Response.WriteAsync("first middleware start/n");
+        await c.Response.WriteAsync("first middleware start\n");
         await n(c);
          await c.Response.WriteAsync("first middleware end");
     }

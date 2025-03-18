@@ -17,13 +17,21 @@ private RequestDelegate n;
        }
        catch (ApplicationException ex)
         {
-            c.Response.StatusCode = 400;
+                    if (!c.Response.HasStarted) // ✅ נוודא שהתגובה לא התחילה
+{
+c.Response.StatusCode = 400;
             await c.Response.WriteAsync(ex.Message);
+}
+            
         }
         catch (Exception e)
         {
+                                if (!c.Response.HasStarted) // ✅ נוודא שהתגובה לא התחילה
+{
             c.Response.StatusCode = 500;
             await c.Response.WriteAsync($"פנה לתמיכה הטכנית /n{e.Message}");
+
+}
         }
     }
 

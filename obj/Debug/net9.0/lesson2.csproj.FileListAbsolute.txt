@@ -68,3 +68,9 @@ D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\refint\lesson2.dll
 D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.pdb
 D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\lesson2.genruntimeconfig.cache
 D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\ref\lesson2.dll
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Data\Books.json
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\lesson2.staticwebassets.runtime.json
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\compressed\212mdbb3fn-zoxlk5se5i.gz
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\compressed\jqwlhl81qj-lmyeqskjpt.gz
+D:\מסמכים\לימודים\Core\lesson2\obj\Debug\net9.0\compressed\oqeb2rh544-9ntliawqdj.gz
+D:\מסמכים\לימודים\Core\lesson2\bin\Debug\net9.0\Data\Users.json

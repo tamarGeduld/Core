@@ -79,11 +79,11 @@ public  class BookServiceConst :IBookService
 }
 
 
-public static class BookUtilities
-{
-    public static void AddBookConst(this IServiceCollection services)
-    {
-        services.AddSingleton<IBookService, BookServiceConst>();
+// public static class BookUtilities
+// {
+//     public static void AddBookConst(this IServiceCollection services)
+//     {
+//         services.AddSingleton<IBookService, BookServiceConst>();
 
-    }
-}
+//     }
+// }
