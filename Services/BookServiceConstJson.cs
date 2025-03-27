@@ -1,14 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
-using Lesson3.Interfaces;
+using Project.Models;
+using Project.Interfaces;
 using System.Text.Json;
 using Microsoft.Extensions.Hosting;
-namespace Lesson3.Services.BookServiceConstJson;
+
+namespace Project.Services.BookServiceConstJson;
 
 public  class BookServiceConstJson :IBookService
 {
-      List<Books> Books { get; }
-        private static string fileName = "Books.json";
+      List<Book> Books { get; }
+        private static string fileName = "book.json";
         private string filePath;
 
          public BookServiceConstJson(IHostEnvironment  env)
@@ -18,12 +19,12 @@ public  class BookServiceConstJson :IBookService
  if (!File.Exists(filePath))
         {
             Console.WriteLine("⚠️ JSON file not found!");
-            Books = new List<Books>(); // יצירת רשימה ריקה במקרה שאין קובץ
+            Books = new List<Book>(); // יצירת רשימה ריקה במקרה שאין קובץ
             return;
         }
             using (var jsonFile = File.OpenText(filePath))
             {
-                Books = JsonSerializer.Deserialize<List<Books>>(jsonFile.ReadToEnd(),
+                Books = JsonSerializer.Deserialize<List<Book>>(jsonFile.ReadToEnd(),
                 new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
@@ -51,11 +52,11 @@ public  class BookServiceConstJson :IBookService
     // }
 
    
-        public List<Books> Get() => Books;
+        public List<Book> Get() => Books;
 
-        public Books Get(int id) => Books.FirstOrDefault(b =>b.Id == id);
+        public Book Get(int id) => Books.FirstOrDefault(b =>b.Id == id);
 
-        public int Insert(Books book)
+        public int Insert(Book book)
         {
             book.Id = Books.Count()+1;
             Books.Add(book);
@@ -74,7 +75,7 @@ public  class BookServiceConstJson :IBookService
             return true;
         }
 
-        public bool Update(int id,Books newBook)
+        public bool Update(int id,Book newBook)
         {
              if (newBook == null 
             || string.IsNullOrWhiteSpace(newBook.Name)

@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\מסמכים\\לימודים\\Core\\lesson2\\lesson2.csproj",
-      "projectName": "lesson2",
-      "projectPath": "D:\\מסמכים\\לימודים\\Core\\lesson2\\lesson2.csproj",
+      "projectUniqueName": "D:\\מסמכים\\לימודים\\Core\\Project\\Project.csproj",
+      "projectName": "Project",
+      "projectPath": "D:\\מסמכים\\לימודים\\Core\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\Tamar\\.nuget\\packages\\",
-      "outputPath": "D:\\מסמכים\\לימודים\\Core\\lesson2\\obj\\",
+      "outputPath": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

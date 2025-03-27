@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
-using Lesson3.Services;
-using Lesson3.Interfaces;
+using Project.Models;
+using Project.Services;
+using Project.Interfaces;
+using System.Text.Json;
 
-namespace Lesson3.Controllers;
+namespace Project.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -18,13 +19,13 @@ public BookController(IBookService bookService)
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Books>> Get()
+    public ActionResult<IEnumerable<Book>> Get()
     {
         return bookService.Get();
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Books> Get(int id)
+    public ActionResult<Book> Get(int id)
     {
         var book = bookService.Get(id);
         if (book == null)
@@ -34,12 +35,14 @@ public BookController(IBookService bookService)
     }
     
     [HttpPost]
-    public ActionResult Post(Books newBook)
+    public ActionResult Post(Book newBook)
     {
+        Console.WriteLine(JsonSerializer.Serialize(newBook)); // הדפסת מה שמתקבל
+
         var newId = bookService.Insert(newBook);
         if (newId == -1)
         {
-            return BadRequest();
+            return BadRequest("Failed to insert book.");
         }
 
         return CreatedAtAction(nameof(Post), new { Id= newId});
@@ -47,7 +50,7 @@ public BookController(IBookService bookService)
 
      
     [HttpPut("{id}")]
-    public ActionResult Put(int id, Books newBook)
+    public ActionResult Put(int id, Book newBook)
     {
         if (bookService.Update(id, newBook))
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vd6Q00oO9Ik=",
+  "dgSpecHash": "j34+qCmqKFE=",
   "success": true,
-  "projectFilePath": "D:\\מסמכים\\לימודים\\Core\\lesson2\\lesson2.csproj",
+  "projectFilePath": "D:\\מסמכים\\לימודים\\Core\\Project\\Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tamar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
     "C:\\Users\\Tamar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -1,17 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
+using Project.Models;
 
-namespace Lesson3.Interfaces;
+namespace Project.Interfaces;
 
 public interface IBookService 
 {
-    List<Books> Get();
+    List<Book> Get();
 
-    Books Get(int id);
+    Book Get(int id);
     
-    int Insert(Books newBook);
+    int Insert(Book newBook);
      
-    bool Update(int id, Books newBook);
+    bool Update(int id, Book newBook);
 
     bool Delete(int id);
    

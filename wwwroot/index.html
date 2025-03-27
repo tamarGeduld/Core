@@ -1,47 +1,30 @@
-<!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Book CRUD</title>
-    <link rel="stylesheet" href="css/site.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <h1>Book CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="add name to new book">
-        <input type="text" id="add-author" placeholder="add author name to new book">
-        <input type="submit" value="Add">
+    <h1>Book Management</h1>
+    
+    <form id="addBookForm">
+        <input type="text" id="bookName" placeholder="Book Name" required>
+        <input type="text" id="bookAuthor" placeholder="Author" required>
+        <button type="submit">Add Book</button>
     </form>
-
-    <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-           
-            <input type="text" id="edit-name">
-            <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
-    </div>
-
-    <p id="counter"></p>
-
+    
     <table>
-        <tr>
-            <th>NameBook</th>
-            <th>author</th>
-            <th></th>
-        </tr>
-        <tbody id="books"></tbody>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="bookList"></tbody>
     </table>
-
-    <script src="js/site.js" asp-append-version="true"></script>
-    <script type="text/javascript">
-        getItems();
-    </script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

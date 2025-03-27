@@ -1,59 +1,52 @@
-using Lesson3.Services.BookServiceConstJson;
-using Lesson3.Interfaces;
+using Project.Services.BookServiceConstJson;
+using Project.Interfaces;
 using Microsoft.OpenApi.Models;
 
-// using Middlewares.FirstMiddleware;
-// using Middlewares.LogMiddleware;
-// using Middlewares.ErrorMiddleware;
-
+// using MyProject.Services;
+// using Microsoft.OpenApi.Models;
+// using MyProject.Middlewares;
+using System.Net.Mail;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddBookJson();
-builder.Services.AddEndpointsApiExplorer();
+// Add services to the container.
 
-// הוספת שירותי ה-Controllers
 builder.Services.AddControllers();
+builder.Services.AddBookJson();
+// builder.Services.AddUserConst();
 
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+//  builder.Services.AddOpenApi();
 
-// הוספת Swagger
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-});
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// קביעת המידלוואר לשרת את Swagger כנקודת JSON
-// if (app.Environment.IsDevelopment())
-// {
-//     app.UseSwagger();
-//     app.UseSwaggerUI(c =>
-//     {
-//         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-//         c.RoutePrefix = string.Empty; // קבעי את Swagger UI בשורש האפליקציה
-//     });
-// }
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-// app.UseFirstMiddleware();
-// app.UseLogMiddleware();
-// app.UseErrorMiddleware();
+app.UseDefaultFiles();
+app.UseStaticFiles();
+// app.UseMyLogMiddleware();
 
+// app.UseMyErrorMiddleware();
 
-// app.Map("/test1", (a) => 
-//     a.Run(async context => 
-//     await context.Response.WriteAsync("our test1-map terminal middleware!\n")));
+app.UseRouting();
 
+app.UseHttpsRedirection();
 
-// app.UseHttpsRedirection();
 app.UseAuthorization();
+
 app.MapControllers();
 
-  app.UseDefaultFiles();
-  app.UseStaticFiles();
-
 app.Run();
-
 
 
 

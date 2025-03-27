@@ -1,34 +1,34 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
-using Lesson3.Interfaces;
+using Project.Models;
+using Project.Interfaces;
 
-namespace Lesson3.Services;
+namespace Project.Services;
 
 public  class BookServiceConst :IBookService
 {
-    private  List<Books> list;
+    private  List<Book> list;
 
     public BookServiceConst()
     {
-        list = new List<Books>
+        list = new List<Book>
         {
-            new Books { Id = 1, Name = "emuna",Author="hachazon Ish" },
-            new Books { Id = 2, Name = "leshaer yeudi", Author="rev itzchak zilber" }
+            new Book { Id = 1, Name = "emuna",Author="hachazon Ish" },
+            new Book { Id = 2, Name = "leshaer yeudi", Author="rev itzchak zilber" }
         };
     }
 
-    public  List<Books> Get()
+    public  List<Book> Get()
     {
         return list;
     }
 
-    public  Books Get(int id)
+    public  Book Get(int id)
     {
         var books = list.FirstOrDefault(p => p.Id == id);
         return books;
     }
     
-    public  int Insert(Books newBook)
+    public  int Insert(Book newBook)
     {
         if (newBook == null 
             || string.IsNullOrWhiteSpace(newBook.Name))
@@ -42,7 +42,7 @@ public  class BookServiceConst :IBookService
     }
 
      
-    public  bool Update(int id, Books newBook)
+    public  bool Update(int id, Book newBook)
     {
         if (newBook == null 
             || string.IsNullOrWhiteSpace(newBook.Name)
