@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
-using Lesson3.Services;
-using Lesson3.Interfaces;
+using Project.Models;
+using Project.Services;
+using Project.Interfaces;
 
-namespace Lesson3.Controllers;
+namespace Project.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -18,13 +18,13 @@ public UserController(IUserService userService)
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Users>> Get()
+    public ActionResult<IEnumerable<User>> Get()
     {
         return userService.Get();
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Users> Get(int id)
+    public ActionResult<User> Get(int id)
     {
         var user = userService.Get(id);
         if (user == null)
@@ -34,7 +34,7 @@ public UserController(IUserService userService)
     }
     
     [HttpPost]
-    public ActionResult Post(Users newUser)
+    public ActionResult Post(User newUser)
     {
         var newId = userService.Insert(newUser);
         if (newId == -1)
@@ -47,7 +47,7 @@ public UserController(IUserService userService)
 
      
     [HttpPut("{id}")]
-    public ActionResult Put(int id, Users newUser)
+    public ActionResult Put(int id, User newUser)
     {
         if (userService.Update(id, newUser))
         {

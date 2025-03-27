@@ -1,17 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
+using Project.Models;
 
-namespace Lesson3.Interfaces;
+namespace Project.Interfaces;
 
 public interface IUserService 
 {
-    List<Users> Get();
+    List<User> Get();
 
-    Users Get(int id);
+    User Get(int id);
     
-    int Insert(Users newUser);
+    int Insert(User newUser);
      
-    bool Update(int id, Users newUser);
+    bool Update(int id, User newUser);
 
     bool Delete(int id);
    

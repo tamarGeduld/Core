@@ -1,14 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
-using Lesson3.Models;
-using Lesson3.Interfaces;
+using Project.Models;
+using Project.Interfaces;
 using System.Text.Json;
 using Microsoft.Extensions.Hosting;
-namespace Lesson3.Services.BookServiceConstJson;
+namespace Project.Services.BookServiceConstJson;
 
 public  class UserServiceConstJson :IUserService
 {
-      List<Users> Users { get; }
-        private static string fileName = "Users.json";
+      List<User> Users { get; }
+        private static string fileName = "user.json";
         private string filePath;
 
          public UserServiceConstJson(IHostEnvironment  env)
@@ -18,12 +18,12 @@ public  class UserServiceConstJson :IUserService
  if (!File.Exists(filePath))
         {
             Console.WriteLine("⚠️ JSON file not found!");
-            Users = new List<Users>(); // יצירת רשימה ריקה במקרה שאין קובץ
+            Users = new List<User>(); // יצירת רשימה ריקה במקרה שאין קובץ
             return;
         }
             using (var jsonFile = File.OpenText(filePath))
             {
-                Users = JsonSerializer.Deserialize<List<Users>>(jsonFile.ReadToEnd(),
+                Users = JsonSerializer.Deserialize<List<User>>(jsonFile.ReadToEnd(),
                 new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
@@ -51,11 +51,11 @@ public  class UserServiceConstJson :IUserService
     // }
 
    
-        public List<Users> Get() => Users;
+        public List<User> Get() => Users;
 
-        public Users Get(int id) => Users.FirstOrDefault(b =>b.Id == id);
+        public User Get(int id) => Users.FirstOrDefault(b =>b.Id == id);
 
-        public int Insert(Users user)
+        public int Insert(User user)
         {
             user.Id = Users.Count()+1;
             Users.Add(user);
@@ -74,7 +74,7 @@ public  class UserServiceConstJson :IUserService
             return true;
         }
 
-        public bool Update(int id,Users newUser)
+        public bool Update(int id,User newUser)
         {
              if (newUser == null 
             || string.IsNullOrWhiteSpace(newUser.Name)
