@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gWEl5lbpduJE7i9dup2727DTbswJi3ohSTwf3/w1pJo=",
+  "Hash": "ZXPpEhiCJQxS0OTDgwdlHLxR+/O7HnWGVCk08FndfWQ=",
   "Source": "Project",
   "BasePath": "_content/Project",
   "Mode": "Default",
@@ -17,33 +17,54 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\9ny14idkd0-olbx715j7c.gz",
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\027mcav4t1-qxgv4to9xx.gz",
       "SourceId": "Project",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Project",
-      "RelativePath": "js/script#[.{fingerprint=olbx715j7c}]?.js.gz",
+      "RelativePath": "js/profile#[.{fingerprint=qxgv4to9xx}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\script.js",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\profile.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f98qczo4wt",
-      "Integrity": "UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE=",
+      "Fingerprint": "wubrbjw9iv",
+      "Integrity": "ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\script.js"
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\profile.js"
     },
     {
-      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-p4qly25sai.gz",
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\58p6p8tlnr-1o0kt61cqs.gz",
       "SourceId": "Project",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Project",
-      "RelativePath": "index#[.{fingerprint=p4qly25sai}]?.html.gz",
+      "RelativePath": "style/style#[.{fingerprint=1o0kt61cqs}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\style\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1l4sdfq26s",
+      "Integrity": "yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\style\\style.css"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-yhv1gkrht0.gz",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "index#[.{fingerprint=yhv1gkrht0}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,53 +73,116 @@
       "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rxehy3it0g",
-      "Integrity": "IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg=",
+      "Fingerprint": "zujjiqrbjr",
+      "Integrity": "tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y561m1f9h1-d1dqqj43hz.gz",
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\fiusmi619a-6r8fkyfvx8.gz",
       "SourceId": "Project",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Project",
-      "RelativePath": "css/styles#[.{fingerprint=d1dqqj43hz}]?.css.gz",
+      "RelativePath": "profile#[.{fingerprint=6r8fkyfvx8}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\css\\styles.css",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\profile.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ez3x26kped",
-      "Integrity": "ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0=",
+      "Fingerprint": "u42s7qh8j2",
+      "Integrity": "zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\css\\styles.css"
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\profile.html"
     },
     {
-      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\css\\styles.css",
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\l5hgulj10e-9r5kcotrqo.gz",
       "SourceId": "Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Project",
-      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "RelativePath": "js/login#[.{fingerprint=9r5kcotrqo}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
-      "AssetRole": "Primary",
+      "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "d1dqqj43hz",
-      "Integrity": "gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc=",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\login.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "595q62v12i",
+      "Integrity": "5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\rghzcwijab-6t5q1fiz44.gz",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "js/books#[.{fingerprint=6t5q1fiz44}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\books.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "csfr02lelj",
+      "Integrity": "rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\books.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\w61onso21h-xsua6dh5dn.gz",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "js/users#[.{fingerprint=xsua6dh5dn}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\users.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0ctovbr355",
+      "Integrity": "gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\users.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y3xk6rhd24-q4x401mlqh.gz",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "users#[.{fingerprint=q4x401mlqh}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\users.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "t3379pfi8i",
+      "Integrity": "h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\users.html"
     },
     {
       "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\index.html",
@@ -115,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "p4qly25sai",
-      "Integrity": "d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k=",
+      "Fingerprint": "yhv1gkrht0",
+      "Integrity": "Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\script.js",
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\books.js",
       "SourceId": "Project",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
       "BasePath": "_content/Project",
-      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "RelativePath": "js/books#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,320 +220,148 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "olbx715j7c",
-      "Integrity": "/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE=",
+      "Fingerprint": "6t5q1fiz44",
+      "Integrity": "6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\script.js"
+      "OriginalItemSpec": "wwwroot\\js\\books.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\login.js",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9r5kcotrqo",
+      "Integrity": "JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\profile.js",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "js/profile#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qxgv4to9xx",
+      "Integrity": "fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\profile.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\users.js",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "js/users#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xsua6dh5dn",
+      "Integrity": "j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\users.js"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\profile.html",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "profile#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6r8fkyfvx8",
+      "Integrity": "7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile.html"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\style\\style.css",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "style/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1o0kt61cqs",
+      "Integrity": "n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style\\style.css"
+    },
+    {
+      "Identity": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\users.html",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "users#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q4x401mlqh",
+      "Integrity": "usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\users.html"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/styles.css",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y561m1f9h1-d1dqqj43hz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003300330033"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "302"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:51:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.css",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "623"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:51:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.css.gz",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y561m1f9h1-d1dqqj43hz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "302"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:51:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.d1dqqj43hz.css",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y561m1f9h1-d1dqqj43hz.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003300330033"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "302"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:51:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "d1dqqj43hz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.d1dqqj43hz.css",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "623"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:51:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "d1dqqj43hz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gUrLrooaFsgWYxpEBA+anacyPKJ1WKKiom1cg1YNMmc="
-        }
-      ]
-    },
-    {
-      "Route": "css/styles.d1dqqj43hz.css.gz",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y561m1f9h1-d1dqqj43hz.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "302"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:51:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "d1dqqj43hz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ltPxXTKiuO+Fm6vVe24t+l30KtQlgpoUTPNnpy3iPq0="
-        }
-      ]
-    },
-    {
       "Route": "index.html",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-p4qly25sai.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-yhv1gkrht0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002659574468"
+          "Quality": "0.002617801047"
         }
       ],
       "ResponseHeaders": [
@@ -459,15 +371,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "375"
+          "Value": "381"
         },
         {
           "Name": "ETag",
-          "Value": "\"IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg=\""
+          "Value": "\"tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:50:53 GMT"
+          "Value": "Thu, 10 Apr 2025 10:19:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -487,13 +399,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k=\""
+          "Value": "W/\"Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k="
+          "Value": "sha256-Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU="
         }
       ]
     },
@@ -508,7 +420,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "842"
+          "Value": "617"
         },
         {
           "Name": "Content-Type",
@@ -516,11 +428,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k=\""
+          "Value": "\"Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:50:53 GMT"
+          "Value": "Thu, 10 Apr 2025 10:19:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -530,13 +442,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k="
+          "Value": "sha256-Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-p4qly25sai.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-yhv1gkrht0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -545,7 +457,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "375"
+          "Value": "381"
         },
         {
           "Name": "Content-Type",
@@ -553,11 +465,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg=\""
+          "Value": "\"tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:50:53 GMT"
+          "Value": "Thu, 10 Apr 2025 10:19:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -575,18 +487,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg="
+          "Value": "sha256-tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA="
         }
       ]
     },
     {
-      "Route": "index.p4qly25sai.html",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-p4qly25sai.gz",
+      "Route": "index.yhv1gkrht0.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-yhv1gkrht0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002659574468"
+          "Quality": "0.002617801047"
         }
       ],
       "ResponseHeaders": [
@@ -596,15 +508,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "375"
+          "Value": "381"
         },
         {
           "Name": "ETag",
-          "Value": "\"IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg=\""
+          "Value": "\"tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:50:53 GMT"
+          "Value": "Thu, 10 Apr 2025 10:19:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -624,13 +536,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k=\""
+          "Value": "W/\"Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p4qly25sai"
+          "Value": "yhv1gkrht0"
         },
         {
           "Name": "label",
@@ -638,12 +550,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k="
+          "Value": "sha256-Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU="
         }
       ]
     },
     {
-      "Route": "index.p4qly25sai.html",
+      "Route": "index.yhv1gkrht0.html",
       "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -653,7 +565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "842"
+          "Value": "617"
         },
         {
           "Name": "Content-Type",
@@ -661,11 +573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k=\""
+          "Value": "\"Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:50:53 GMT"
+          "Value": "Thu, 10 Apr 2025 10:19:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -675,7 +587,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p4qly25sai"
+          "Value": "yhv1gkrht0"
         },
         {
           "Name": "label",
@@ -683,13 +595,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-d46nMjFefdrvHf9No/a3F8AeZmRRdEyyENyoD4nrJ6k="
+          "Value": "sha256-Str5IBF+TYW1GdCKSov6E42Id0c0AZutu2gy/hoQxTU="
         }
       ]
     },
     {
-      "Route": "index.p4qly25sai.html.gz",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-p4qly25sai.gz",
+      "Route": "index.yhv1gkrht0.html.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\bswnttezdw-yhv1gkrht0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -698,7 +610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "375"
+          "Value": "381"
         },
         {
           "Name": "Content-Type",
@@ -706,11 +618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg=\""
+          "Value": "\"tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:50:53 GMT"
+          "Value": "Thu, 10 Apr 2025 10:19:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -728,7 +640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p4qly25sai"
+          "Value": "yhv1gkrht0"
         },
         {
           "Name": "label",
@@ -736,18 +648,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IewPMw2FCk2NkZr0C9+JdLzybwm5erXHV6Ex8wWpTJg="
+          "Value": "sha256-tartKMzcFqT5LWZet7m+8/BN02ddYCnXBBZvM47AqsA="
         }
       ]
     },
     {
-      "Route": "js/script.js",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\9ny14idkd0-olbx715j7c.gz",
+      "Route": "js/books.6t5q1fiz44.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\rghzcwijab-6t5q1fiz44.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001414427157"
+          "Quality": "0.001464128843"
         }
       ],
       "ResponseHeaders": [
@@ -757,19 +669,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "706"
+          "Value": "682"
         },
         {
           "Name": "ETag",
-          "Value": "\"UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE=\""
+          "Value": "\"rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:56:05 GMT"
+          "Value": "Wed, 09 Apr 2025 12:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -785,19 +697,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE=\""
+          "Value": "W/\"6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "6t5q1fiz44"
+        },
+        {
+          "Name": "label",
+          "Value": "js/books.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE="
+          "Value": "sha256-6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg="
         }
       ]
     },
     {
-      "Route": "js/script.js",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\script.js",
+      "Route": "js/books.6t5q1fiz44.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\books.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -806,7 +726,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1993"
+          "Value": "1625"
         },
         {
           "Name": "Content-Type",
@@ -814,27 +734,35 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE=\""
+          "Value": "\"6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:56:05 GMT"
+          "Value": "Wed, 09 Apr 2025 12:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "6t5q1fiz44"
+        },
+        {
+          "Name": "label",
+          "Value": "js/books.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE="
+          "Value": "sha256-6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg="
         }
       ]
     },
     {
-      "Route": "js/script.js.gz",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\9ny14idkd0-olbx715j7c.gz",
+      "Route": "js/books.6t5q1fiz44.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\rghzcwijab-6t5q1fiz44.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -843,7 +771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "706"
+          "Value": "682"
         },
         {
           "Name": "Content-Type",
@@ -851,15 +779,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE=\""
+          "Value": "\"rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:56:05 GMT"
+          "Value": "Wed, 09 Apr 2025 12:55:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -872,19 +800,27 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "6t5q1fiz44"
+        },
+        {
+          "Name": "label",
+          "Value": "js/books.js.gz"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE="
+          "Value": "sha256-rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI="
         }
       ]
     },
     {
-      "Route": "js/script.olbx715j7c.js",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\9ny14idkd0-olbx715j7c.gz",
+      "Route": "js/books.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\rghzcwijab-6t5q1fiz44.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001414427157"
+          "Quality": "0.001464128843"
         }
       ],
       "ResponseHeaders": [
@@ -894,15 +830,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "706"
+          "Value": "682"
         },
         {
           "Name": "ETag",
-          "Value": "\"UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE=\""
+          "Value": "\"rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:56:05 GMT"
+          "Value": "Wed, 09 Apr 2025 12:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg="
+        }
+      ]
+    },
+    {
+      "Route": "js/books.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\books.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rwhV5Jxq8AzsN2s2KkRWZ3Uxttadw3fJb7+aWmc6Kg="
+        }
+      ]
+    },
+    {
+      "Route": "js/books.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\rghzcwijab-6t5q1fiz44.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rKBNPIvwkvJ4JIwj5xNZImc7UBkNZWCKZPDax3JeMZI="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.9r5kcotrqo.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\l5hgulj10e-9r5kcotrqo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001607717042"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 20:12:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -922,27 +995,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE=\""
+          "Value": "W/\"JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "olbx715j7c"
+          "Value": "9r5kcotrqo"
         },
         {
           "Name": "label",
-          "Value": "js/script.js"
+          "Value": "js/login.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE="
+          "Value": "sha256-JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM="
         }
       ]
     },
     {
-      "Route": "js/script.olbx715j7c.js",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\script.js",
+      "Route": "js/login.9r5kcotrqo.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -951,7 +1024,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1993"
+          "Value": "1602"
         },
         {
           "Name": "Content-Type",
@@ -959,11 +1032,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE=\""
+          "Value": "\"JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:56:05 GMT"
+          "Value": "Wed, 09 Apr 2025 20:12:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -973,21 +1046,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "olbx715j7c"
+          "Value": "9r5kcotrqo"
         },
         {
           "Name": "label",
-          "Value": "js/script.js"
+          "Value": "js/login.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/NN2epNIEAoA8Pdu4SDJ0MJjAB0QEXbV8oUN7ZRejlE="
+          "Value": "sha256-JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM="
         }
       ]
     },
     {
-      "Route": "js/script.olbx715j7c.js.gz",
-      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\9ny14idkd0-olbx715j7c.gz",
+      "Route": "js/login.9r5kcotrqo.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\l5hgulj10e-9r5kcotrqo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -996,7 +1069,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "706"
+          "Value": "621"
         },
         {
           "Name": "Content-Type",
@@ -1004,11 +1077,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE=\""
+          "Value": "\"5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 19:56:05 GMT"
+          "Value": "Wed, 09 Apr 2025 20:12:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1026,15 +1099,1642 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "olbx715j7c"
+          "Value": "9r5kcotrqo"
         },
         {
           "Name": "label",
-          "Value": "js/script.js.gz"
+          "Value": "js/login.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UyRR4UizpfgYvnQ0dHqDoZETeIP4rRPuBix7icq+3sE="
+          "Value": "sha256-5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\l5hgulj10e-9r5kcotrqo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001607717042"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 20:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 20:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JdbwEnRhBJQy5eB0FDxjExuZDmen5vTq0zQavAm6WBM="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\l5hgulj10e-9r5kcotrqo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 20:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ySzRRQL8aqq6ru9in1d82UTivBTfFmLbUXaFfXB8TQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/profile.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\027mcav4t1-qxgv4to9xx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000863557858"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M="
+        }
+      ]
+    },
+    {
+      "Route": "js/profile.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\profile.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M="
+        }
+      ]
+    },
+    {
+      "Route": "js/profile.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\027mcav4t1-qxgv4to9xx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk="
+        }
+      ]
+    },
+    {
+      "Route": "js/profile.qxgv4to9xx.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\027mcav4t1-qxgv4to9xx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000863557858"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxgv4to9xx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/profile.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M="
+        }
+      ]
+    },
+    {
+      "Route": "js/profile.qxgv4to9xx.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\profile.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxgv4to9xx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/profile.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fj8wUV3PZyIhMxnab8A1XOPxufe/1bbNXz0EeNmyV+M="
+        }
+      ]
+    },
+    {
+      "Route": "js/profile.qxgv4to9xx.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\027mcav4t1-qxgv4to9xx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxgv4to9xx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/profile.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ODToUq0z5BLZKJ5TBi1CHJJ+5j5gLxnjaGZ0FbqFDZk="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\w61onso21h-xsua6dh5dn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000777604977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1285"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\users.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\w61onso21h-xsua6dh5dn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.xsua6dh5dn.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\w61onso21h-xsua6dh5dn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000777604977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1285"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xsua6dh5dn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.xsua6dh5dn.js",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\users.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xsua6dh5dn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j9sjO/GF/LX6tNektICwCgrEpDXDwxfG8nRvnOWIf/8="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.xsua6dh5dn.js.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\w61onso21h-xsua6dh5dn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:31:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xsua6dh5dn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gFoU8dXXo4yuN/Pl5yEgF96TDuUKwaiN73uyr1ZqLlM="
+        }
+      ]
+    },
+    {
+      "Route": "profile.6r8fkyfvx8.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\fiusmi619a-6r8fkyfvx8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001658374793"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "602"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:49:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6r8fkyfvx8"
+        },
+        {
+          "Name": "label",
+          "Value": "profile.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI="
+        }
+      ]
+    },
+    {
+      "Route": "profile.6r8fkyfvx8.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\profile.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:49:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6r8fkyfvx8"
+        },
+        {
+          "Name": "label",
+          "Value": "profile.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI="
+        }
+      ]
+    },
+    {
+      "Route": "profile.6r8fkyfvx8.html.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\fiusmi619a-6r8fkyfvx8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:49:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6r8fkyfvx8"
+        },
+        {
+          "Name": "label",
+          "Value": "profile.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc="
+        }
+      ]
+    },
+    {
+      "Route": "profile.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\fiusmi619a-6r8fkyfvx8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001658374793"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "602"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:49:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI="
+        }
+      ]
+    },
+    {
+      "Route": "profile.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\profile.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:49:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7hnO+lvtMV6VIAAmT627i39af+gEY4S47IkeSq2p4ZI="
+        }
+      ]
+    },
+    {
+      "Route": "profile.html.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\fiusmi619a-6r8fkyfvx8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 15:49:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zhjZqFzStGo24/KdNV+verTlFKjdttq4QpKMQc6Ogtc="
+        }
+      ]
+    },
+    {
+      "Route": "style/style.1o0kt61cqs.css",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\58p6p8tlnr-1o0kt61cqs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000913242009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 16:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1o0kt61cqs"
+        },
+        {
+          "Name": "label",
+          "Value": "style/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY="
+        }
+      ]
+    },
+    {
+      "Route": "style/style.1o0kt61cqs.css",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\style\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 16:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1o0kt61cqs"
+        },
+        {
+          "Name": "label",
+          "Value": "style/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY="
+        }
+      ]
+    },
+    {
+      "Route": "style/style.1o0kt61cqs.css.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\58p6p8tlnr-1o0kt61cqs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 16:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1o0kt61cqs"
+        },
+        {
+          "Name": "label",
+          "Value": "style/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI="
+        }
+      ]
+    },
+    {
+      "Route": "style/style.css",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\58p6p8tlnr-1o0kt61cqs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000913242009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 16:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY="
+        }
+      ]
+    },
+    {
+      "Route": "style/style.css",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\style\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 16:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n5rmXU5w9rPGrjlw0wzGSq7SfZcGBkLBSaQ4exPefTY="
+        }
+      ]
+    },
+    {
+      "Route": "style/style.css.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\58p6p8tlnr-1o0kt61cqs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 16:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yxAVdVJf1HO06YcOPoMXi+ZgYxYWTSNMcHTcO/u7srI="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y3xk6rhd24-q4x401mlqh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001236093943"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:32:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:32:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk="
+        }
+      ]
+    },
+    {
+      "Route": "users.html.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y3xk6rhd24-q4x401mlqh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:32:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74="
+        }
+      ]
+    },
+    {
+      "Route": "users.q4x401mlqh.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y3xk6rhd24-q4x401mlqh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001236093943"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:32:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q4x401mlqh"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk="
+        }
+      ]
+    },
+    {
+      "Route": "users.q4x401mlqh.html",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:32:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q4x401mlqh"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-usRCl/ba4Gsq0W1bHbZAUeA5xaw4u5QfoLQyWJ3b+zk="
+        }
+      ]
+    },
+    {
+      "Route": "users.q4x401mlqh.html.gz",
+      "AssetFile": "D:\\מסמכים\\לימודים\\Core\\Project\\obj\\Debug\\net9.0\\compressed\\y3xk6rhd24-q4x401mlqh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:32:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q4x401mlqh"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h9cXEHdCsGe4i0EOY8+9UZ2MYjn7ECw3pajp1zOct74="
         }
       ]
     }

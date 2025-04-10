@@ -1,0 +1,249 @@
+[00:01:53 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[00:01:53 INF] Now listening on: http://localhost:5017
+[00:01:53 INF] Application started. Press Ctrl+C to shut down.
+[00:01:53 INF] Hosting environment: Development
+[00:01:53 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[00:05:57 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+[00:05:57 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 54.3615ms
+[00:05:57 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+[00:05:57 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 4.9563ms
+[00:05:57 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+[00:05:57 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.8912ms
+[00:06:20 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 47
+[00:06:20 WRN] Failed to determine the https port for redirect.
+[00:06:20 INF] CORS policy execution successful.
+[00:06:20 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[00:06:20 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[00:06:20 INF] Accessing expired session, Key:23cbf1d6-17cb-a201-df57-d4ad79a13f5d
+[00:06:20 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[00:06:20 INF] Executed action Project.Controllers.LoginController.Login (Project) in 61.3536ms
+[00:06:20 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[00:06:20 INF] Session started; Key:23cbf1d6-17cb-a201-df57-d4ad79a13f5d, Id:4d064311-9fad-dc2e-27a5-2ac23d0502be
+[00:06:20 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 150.4549ms
+[00:06:44 INF] Request starting HTTP/1.1 GET http://localhost:5017/Book - null null
+[00:06:44 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[00:06:44 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[00:06:44 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[00:06:44 INF] Executed action Project.Controllers.BookController.Get (Project) in 15.1821ms
+[00:06:44 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[00:06:44 INF] Request finished HTTP/1.1 GET http://localhost:5017/Book - 200 null application/json; charset=utf-8 56.8162ms
+[14:23:18 INF] Application is shutting down...
+[14:23:24 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:23:25 INF] Now listening on: http://localhost:5017
+[14:23:25 INF] Application started. Press Ctrl+C to shut down.
+[14:23:25 INF] Hosting environment: Development
+[14:23:25 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:23:39 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[14:23:39 WRN] Failed to determine the https port for redirect.
+[14:23:39 INF] The file /index.html was not modified
+[14:23:39 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 304 null text/html 40.6739ms
+[14:23:39 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/script.js - null null
+[14:23:39 INF] Request starting HTTP/1.1 GET http://localhost:5017/css/styles.css - null null
+[14:23:39 INF] The file /js/script.js was not modified
+[14:23:39 INF] The file /css/styles.css was not modified
+[14:23:39 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/script.js - 304 null text/javascript 12.3319ms
+[14:23:39 INF] Request finished HTTP/1.1 GET http://localhost:5017/css/styles.css - 304 null text/css 7.5583ms
+[14:23:39 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[14:23:40 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[14:23:40 INF] AuthenticationScheme: Bearer was challenged.
+[14:23:40 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 645.5716ms
+[14:23:42 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+[14:23:42 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 36.5939ms
+[14:23:42 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+[14:23:42 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 4.5385ms
+[14:23:43 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+[14:23:43 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.3598ms
+[14:24:43 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 47
+[14:24:43 INF] CORS policy execution successful.
+[14:24:43 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:24:43 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[14:24:43 INF] Accessing expired session, Key:23cbf1d6-17cb-a201-df57-d4ad79a13f5d
+[14:24:43 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[14:24:43 INF] Executed action Project.Controllers.LoginController.Login (Project) in 108.7214ms
+[14:24:43 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:24:43 INF] Session started; Key:23cbf1d6-17cb-a201-df57-d4ad79a13f5d, Id:0fb4e694-41b9-f8db-ed95-ab4c3a8ec90e
+[14:24:43 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 156.8479ms
+[14:26:11 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/User/2 - null null
+[14:26:11 INF] CORS policy execution successful.
+[14:26:11 INF] Executing endpoint 'Project.Controllers.UserController.Delete (Project)'
+[14:26:11 INF] Route matched with {action = "Delete", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.UserController (Project).
+[14:26:11 INF] Executing StatusCodeResult, setting HTTP status code 200
+[14:26:11 INF] Executed action Project.Controllers.UserController.Delete (Project) in 6.8659ms
+[14:26:11 INF] Executed endpoint 'Project.Controllers.UserController.Delete (Project)'
+[14:26:11 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/User/2 - 200 0 null 54.2514ms
+[14:43:58 INF] Application is shutting down...
+[14:55:56 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:55:56 INF] Now listening on: http://localhost:5017
+[14:55:56 INF] Application started. Press Ctrl+C to shut down.
+[14:55:56 INF] Hosting environment: Development
+[14:55:56 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:56:05 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.html - null null
+[14:56:05 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.html - 200 null text/html;charset=utf-8 51.6896ms
+[14:56:05 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/index.js - null null
+[14:56:05 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/index.js - 200 null application/javascript;charset=utf-8 8.1ms
+[14:56:05 INF] Request starting HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - null null
+[14:56:05 INF] Request finished HTTP/1.1 GET http://localhost:5017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.2124ms
+[14:56:19 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 47
+[14:56:19 WRN] Failed to determine the https port for redirect.
+[14:56:19 INF] CORS policy execution successful.
+[14:56:19 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:56:19 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[14:56:19 INF] Accessing expired session, Key:23cbf1d6-17cb-a201-df57-d4ad79a13f5d
+[14:56:19 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[14:56:19 INF] Executed action Project.Controllers.LoginController.Login (Project) in 68.7505ms
+[14:56:19 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:56:19 INF] Session started; Key:23cbf1d6-17cb-a201-df57-d4ad79a13f5d, Id:d76ae964-35cd-d9d4-1a14-6090255c9653
+[14:56:19 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 157.4729ms
+[14:57:04 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/User/2 - null null
+[14:57:04 INF] CORS policy execution successful.
+[14:57:05 INF] Executing endpoint 'Project.Controllers.UserController.Delete (Project)'
+[14:57:05 INF] Route matched with {action = "Delete", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.UserController (Project).
+[14:57:05 INF] Executing StatusCodeResult, setting HTTP status code 200
+[14:57:05 INF] Executed action Project.Controllers.UserController.Delete (Project) in 17.3597ms
+[14:57:05 INF] Executed endpoint 'Project.Controllers.UserController.Delete (Project)'
+[14:57:05 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/User/2 - 200 0 null 69.722ms
+[22:27:41 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:27:41 INF] Now listening on: http://localhost:5017
+[22:27:41 INF] Application started. Press Ctrl+C to shut down.
+[22:27:41 INF] Hosting environment: Development
+[22:27:41 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[22:28:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:28:29 WRN] Failed to determine the https port for redirect.
+[22:28:29 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:28:29 INF] AuthenticationScheme: Bearer was challenged.
+[22:28:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 76.442ms
+[22:28:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/favicon.ico - null null
+[22:28:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/favicon.ico - 404 0 null 11.6414ms
+[22:28:30 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/favicon.ico, Response status code: 404
+[22:29:43 INF] Application is shutting down...
+[22:29:47 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:29:47 INF] Now listening on: http://localhost:5017
+[22:29:47 INF] Application started. Press Ctrl+C to shut down.
+[22:29:47 INF] Hosting environment: Development
+[22:29:47 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[22:29:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:29:53 WRN] Failed to determine the https port for redirect.
+[22:29:53 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:29:53 INF] AuthenticationScheme: Bearer was challenged.
+[22:29:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 67.9774ms
+[22:29:57 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:29:57 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:29:57 INF] AuthenticationScheme: Bearer was challenged.
+[22:29:57 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 12.3591ms
+[22:33:29 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:29 INF] CORS policy execution successful.
+[22:33:29 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:29 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:29 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 15.5299ms
+[22:33:30 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:30 INF] CORS policy execution successful.
+[22:33:30 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:30 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:30 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 8.0591ms
+[22:33:30 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:30 INF] CORS policy execution successful.
+[22:33:30 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:30 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:30 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 8.3791ms
+[22:33:30 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:30 INF] CORS policy execution successful.
+[22:33:30 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:30 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:30 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 6.2733ms
+[22:33:30 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:30 INF] CORS policy execution successful.
+[22:33:30 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:30 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:30 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 7.6258ms
+[22:33:32 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:32 INF] CORS policy execution successful.
+[22:33:32 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:32 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:32 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 7.7697ms
+[22:33:32 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[22:33:32 INF] CORS policy execution successful.
+[22:33:32 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:33:32 INF] AuthenticationScheme: Bearer was challenged.
+[22:33:32 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 401 0 null 7.4977ms
+[22:35:52 INF] Application is shutting down...
+[22:42:29 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:42:29 INF] Now listening on: http://localhost:5017
+[22:42:29 INF] Application started. Press Ctrl+C to shut down.
+[22:42:29 INF] Hosting environment: Development
+[22:42:29 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[22:42:38 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:42:38 WRN] Failed to determine the https port for redirect.
+[22:42:38 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:42:38 INF] AuthenticationScheme: Bearer was challenged.
+[22:42:38 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 74.711ms
+[22:42:43 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:42:43 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:42:43 INF] AuthenticationScheme: Bearer was challenged.
+[22:42:43 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 16.1754ms
+[22:42:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:42:50 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:42:50 INF] AuthenticationScheme: Bearer was challenged.
+[22:42:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 9.4976ms
+[22:44:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:44:14 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:44:14 INF] AuthenticationScheme: Bearer was challenged.
+[22:44:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 10.7853ms
+[22:44:15 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:44:15 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:44:15 INF] AuthenticationScheme: Bearer was challenged.
+[22:44:15 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 6.5947ms
+[22:51:24 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:51:24 INF] Now listening on: http://localhost:5017
+[22:51:24 INF] Application started. Press Ctrl+C to shut down.
+[22:51:24 INF] Hosting environment: Development
+[22:51:24 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[22:51:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[22:51:30 WRN] Failed to determine the https port for redirect.
+[22:51:30 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[22:51:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 200 563 text/html 55.1745ms
+[22:51:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[22:51:30 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[22:51:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 882 text/javascript 17.3989ms
+[22:51:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/favicon.ico - null null
+[22:51:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/favicon.ico - 404 0 null 639.2766ms
+[22:51:31 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/favicon.ico, Response status code: 404
+[22:51:48 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:51:48 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[22:51:48 INF] AuthenticationScheme: Bearer was challenged.
+[22:51:48 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 401 0 null 19.9774ms
+[22:52:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[22:52:08 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[22:52:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 563 text/html 10.4864ms
+[23:58:45 INF] Application is shutting down...
+[23:58:49 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[23:58:49 INF] Now listening on: http://localhost:5017
+[23:58:49 INF] Application started. Press Ctrl+C to shut down.
+[23:58:49 INF] Hosting environment: Development
+[23:58:49 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[23:59:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[23:59:00 WRN] Failed to determine the https port for redirect.
+[23:59:00 INF] The file /index.html was not modified
+[23:59:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 304 null text/html 37.0411ms
+[23:59:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[23:59:00 INF] The file /js/login.js was not modified
+[23:59:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 5.1855ms
+[23:59:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[23:59:08 INF] The file /index.html was not modified
+[23:59:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 8.5109ms

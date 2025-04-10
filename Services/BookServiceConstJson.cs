@@ -6,41 +6,41 @@ using Microsoft.Extensions.Hosting;
 
 namespace Project.Services.BookServiceConstJson;
 
-public  class BookServiceConstJson :IBookService
+public class BookServiceConstJson : IBookService
 {
-      List<Book> Books { get; }
-        private static string fileName = "book.json";
-        private string filePath;
+    List<Book> Books { get; }
+    private static string fileName = "book.json";
+    private string filePath;
 
-         public BookServiceConstJson(IHostEnvironment  env)
-        {
-            filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
+    public BookServiceConstJson(IHostEnvironment env)
+    {
+        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
 
- if (!File.Exists(filePath))
+        if (!File.Exists(filePath))
         {
             Console.WriteLine("⚠️ JSON file not found!");
             Books = new List<Book>(); // יצירת רשימה ריקה במקרה שאין קובץ
             return;
         }
-            using (var jsonFile = File.OpenText(filePath))
-            {
-                Books = JsonSerializer.Deserialize<List<Book>>(jsonFile.ReadToEnd(),
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
-
-                
-                 Console.WriteLine($"Loaded JSON: {Books}");
-            }
-        }
-
-        private void saveToFile()
+        using (var jsonFile = File.OpenText(filePath))
         {
-            File.WriteAllText(filePath, JsonSerializer.Serialize(Books));
+            Books = JsonSerializer.Deserialize<List<Book>>(jsonFile.ReadToEnd(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+
+
+            Console.WriteLine($"Loaded JSON: {Books}");
         }
+    }
+
+    private void saveToFile()
+    {
+        File.WriteAllText(filePath, JsonSerializer.Serialize(Books));
+    }
     // private  List<Books> list;
-    
+
 
     // public BookServiceConstJson()
     // {
@@ -51,51 +51,77 @@ public  class BookServiceConstJson :IBookService
     //     };
     // }
 
-   
-        public List<Book> Get() => Books;
 
-        public Book Get(int id) => Books.FirstOrDefault(b =>b.Id == id);
 
-        public int Insert(Book book)
-        {
-            book.Id = Books.Count()+1;
-            Books.Add(book);
-            saveToFile();
-            return book.Id;
-        }
+    public List<Book> Get() => Books;
 
-        public bool Delete(int id)
-        {
-            var book = Get(id);
-            if (book is null)
-                return false;
+    public Book Get(int id) => Books.FirstOrDefault(b => b.Id == id);
 
-            Books.Remove(book);
-            saveToFile();
-            return true;
-        }
+    public int Insert(Book book)
+    {
+        book.Id = Books.Count() + 1;
+        Books.Add(book);
+        saveToFile();
+        return book.Id;
+    }
 
-        public bool Update(int id,Book newBook)
-        {
-             if (newBook == null 
-            || string.IsNullOrWhiteSpace(newBook.Name)
-            || newBook.Id != id)
+    public bool Delete(int id)
+    {
+        var book = Get(id);
+        if (book is null)
+            return false;
+
+        Books.Remove(book);
+        saveToFile();
+        return true;
+    }
+
+    public bool Update(int id, Book newBook)
+    {
+        if (newBook == null
+       || string.IsNullOrWhiteSpace(newBook.Name)
+       || newBook.Id != id)
         {
             return false;
         }
-            var index = Books.FindIndex(b => b.Id == newBook.Id);
-            if (index == -1)
-                return false;
+        var index = Books.FindIndex(b => b.Id == newBook.Id);
+        if (index == -1)
+            return false;
 
-            Books[index] = newBook;
-            saveToFile();
-            return true;
-        }
+        Books[index] = newBook;
+        saveToFile();
+        return true;
+    }
 
-   
+
 
     public int Count => Books.Count();
-   
+    public void DeleteBooksByUserId(int userId)
+    {
+        var books = LoadBooksFromFile();
+        var updated = books.Where(b => b.UserId != userId.ToString()).ToList();
+        SaveBooksToFile(updated);
+    }
+
+    private List<Book> LoadBooksFromFile()
+    {
+        if (!File.Exists(filePath))
+            return new List<Book>();
+
+        var json = File.ReadAllText(filePath);
+        return JsonSerializer.Deserialize<List<Book>>(json, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        }) ?? new List<Book>();
+    }
+
+    private void SaveBooksToFile(List<Book> books)
+    {
+        File.WriteAllText(filePath, JsonSerializer.Serialize(books));
+        Books.Clear();
+        Books.AddRange(books);
+    }
+
 }
 
 

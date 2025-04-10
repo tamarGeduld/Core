@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הפרופיל שלי</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <h2>הפרופיל שלי</h2>
+    <div id="profile"></div>
+    <div id="bookList"></div>
+    <div id="messageBox" style="margin-top: 10px;"></div>
+
+    <button id="toggleAddBookBtn">➕ הוסף ספר חדש</button>
+
+    <form id="addBookForm" style="display: none;">
+        <input type="text" id="bookName" placeholder="שם הספר" required>
+        <input type="text" id="bookAuthor" placeholder="שם המחבר" required>
+        <button type="submit">הוסף ספר</button>
+    </form>
+
+    <div id="editBookFormContainer" style="display:none;">
+        <h3>עריכת ספר</h3>
+        <form id="editBookForm">
+            <input type="hidden" id="editBookId">
+            <input type="text" id="editBookName" placeholder="שם הספר"><br>
+            <input type="text" id="editBookAuthor" placeholder="שם המחבר"><br>
+            <button type="submit">שמור</button>
+        </form>
+    </div>
+
+    <button onclick="logout()">התנתק</button>
+    <script src="js/login.js"></script>
+    <script type="module" src="js/profile.js"></script>
+</body>
+
+</html>

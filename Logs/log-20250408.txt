@@ -1,0 +1,646 @@
+[13:24:13 INF] Application is shutting down...
+[13:24:20 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:24:20 INF] Now listening on: http://localhost:5017
+[13:24:20 INF] Application started. Press Ctrl+C to shut down.
+[13:24:20 INF] Hosting environment: Development
+[13:24:20 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[13:24:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[13:24:26 WRN] Failed to determine the https port for redirect.
+[13:24:26 INF] The file /index.html was not modified
+[13:24:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 304 null text/html 48.0523ms
+[13:24:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[13:24:26 INF] The file /js/login.js was not modified
+[13:24:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 6.3943ms
+[13:24:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[13:24:36 INF] The file /index.html was not modified
+[13:24:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 3.9444ms
+[13:32:27 INF] Application is shutting down...
+[13:32:31 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:32:31 INF] Now listening on: http://localhost:5017
+[13:32:31 INF] Application started. Press Ctrl+C to shut down.
+[13:32:31 INF] Hosting environment: Development
+[13:32:31 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[13:41:04 INF] Application is shutting down...
+[13:41:09 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:41:09 INF] Now listening on: http://localhost:5017
+[13:41:09 INF] Application started. Press Ctrl+C to shut down.
+[13:41:09 INF] Hosting environment: Development
+[13:41:09 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[13:46:47 INF] Application is shutting down...
+[13:46:50 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:46:50 INF] Now listening on: http://localhost:5017
+[13:46:50 INF] Application started. Press Ctrl+C to shut down.
+[13:46:50 INF] Hosting environment: Development
+[13:46:50 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[13:49:21 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[13:49:21 WRN] Failed to determine the https port for redirect.
+[13:49:21 INF] The file /index.html was not modified
+[13:49:21 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 26.7046ms
+[13:50:16 INF] Application is shutting down...
+[13:50:38 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:50:38 INF] Now listening on: http://localhost:5017
+[13:50:38 INF] Application started. Press Ctrl+C to shut down.
+[13:50:38 INF] Hosting environment: Development
+[13:50:38 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[13:52:14 INF] Application is shutting down...
+[13:52:21 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:52:22 INF] Now listening on: http://localhost:5017
+[13:52:22 INF] Application started. Press Ctrl+C to shut down.
+[13:52:22 INF] Hosting environment: Development
+[13:52:22 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[13:56:54 INF] Application is shutting down...
+[13:56:58 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[13:56:58 INF] Now listening on: http://localhost:5017
+[13:56:58 INF] Application started. Press Ctrl+C to shut down.
+[13:56:58 INF] Hosting environment: Development
+[13:56:58 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:00:11 INF] Application is shutting down...
+[14:00:15 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:00:15 INF] Now listening on: http://localhost:5017
+[14:00:15 INF] Application started. Press Ctrl+C to shut down.
+[14:00:15 INF] Hosting environment: Development
+[14:00:15 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:05:11 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:05:11 WRN] Failed to determine the https port for redirect.
+[14:05:11 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[14:05:11 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 912 text/javascript 33.5586ms
+[14:07:40 INF] Application is shutting down...
+[14:07:44 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:07:44 INF] Now listening on: http://localhost:5017
+[14:07:44 INF] Application started. Press Ctrl+C to shut down.
+[14:07:44 INF] Hosting environment: Development
+[14:07:44 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:07:49 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:07:49 WRN] Failed to determine the https port for redirect.
+[14:07:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 679.5894ms
+[14:07:50 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:07:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:07:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 9.9996ms
+[14:07:53 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:10:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/script.js - null null
+[14:10:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/script.js - 404 0 null 10.6212ms
+[14:10:24 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/script.js, Response status code: 404
+[14:10:34 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[14:10:34 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[14:10:34 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 564 text/html 12.2062ms
+[14:10:34 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login_.js - null null
+[14:10:34 INF] Sending file. Request path: '/js/login_.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login_.js'
+[14:10:34 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login_.js - 200 912 text/javascript 10.1883ms
+[14:10:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[14:10:52 INF] The file /index.html was not modified
+[14:10:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 7.8944ms
+[14:11:02 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/script.js - null null
+[14:11:02 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/script.js - 404 0 null 13.0257ms
+[14:11:02 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/script.js, Response status code: 404
+[14:15:17 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:15:17 INF] Now listening on: http://localhost:5017
+[14:15:17 INF] Application started. Press Ctrl+C to shut down.
+[14:15:17 INF] Hosting environment: Development
+[14:15:17 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:15:21 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:15:21 WRN] Failed to determine the https port for redirect.
+[14:15:21 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 114.3863ms
+[14:15:21 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:15:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:15:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 8.9241ms
+[14:15:26 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:15:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:15:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 7.663ms
+[14:15:36 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:15:46 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:15:46 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 7.3831ms
+[14:15:46 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:16:02 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:16:02 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 5.7897ms
+[14:16:02 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:16:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:16:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 17.6104ms
+[14:16:30 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:17:56 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:17:56 INF] Now listening on: http://localhost:5017
+[14:17:56 INF] Application started. Press Ctrl+C to shut down.
+[14:17:56 INF] Hosting environment: Development
+[14:17:56 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:18:01 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:18:01 WRN] Failed to determine the https port for redirect.
+[14:18:01 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 69.5564ms
+[14:18:01 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:18:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:18:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 8.7333ms
+[14:18:08 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:18:09 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:18:09 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 6.4821ms
+[14:18:09 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:19:48 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:19:48 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 5.013ms
+[14:19:48 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:19:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:19:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 7.499ms
+[14:19:50 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:19:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:19:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 14.7397ms
+[14:19:51 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:20:01 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login_.js - null null
+[14:20:01 INF] Sending file. Request path: '/js/login_.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login_.js'
+[14:20:01 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login_.js - 200 912 text/javascript 13.2925ms
+[14:25:12 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:12 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 5.4301ms
+[14:25:12 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:25:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 6.8613ms
+[14:25:14 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:25:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 4.1148ms
+[14:25:17 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:25:18 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:18 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 5.9701ms
+[14:25:18 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:25:19 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:19 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 4.9478ms
+[14:25:19 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:25:23 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:23 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 4.9047ms
+[14:25:23 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:25:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:25:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 6.0449ms
+[14:25:56 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:26:02 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:26:02 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 5.8372ms
+[14:26:02 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:26:11 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:26:11 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 4.9058ms
+[14:26:11 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:26:13 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[14:26:13 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[14:26:13 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 564 text/html 24.2095ms
+[14:26:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login_.js - null null
+[14:26:14 INF] Sending file. Request path: '/js/login_.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login_.js'
+[14:26:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login_.js - 200 912 text/javascript 34.4086ms
+[14:27:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:27:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 5.5018ms
+[14:27:00 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:27:09 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:27:09 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 5.0468ms
+[14:27:09 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:30:26 INF] Application is shutting down...
+[14:30:32 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:30:32 INF] Now listening on: http://localhost:5017
+[14:30:32 INF] Application started. Press Ctrl+C to shut down.
+[14:30:32 INF] Hosting environment: Development
+[14:30:32 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:30:49 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:30:49 WRN] Failed to determine the https port for redirect.
+[14:30:49 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 607.4264ms
+[14:30:49 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:30:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[14:30:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 10.2014ms
+[14:30:51 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[14:30:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[14:30:55 INF] The file /index.html was not modified
+[14:30:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 18.815ms
+[14:30:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login_.js - null null
+[14:30:55 INF] Sending file. Request path: '/js/login_.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login_.js'
+[14:30:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login_.js - 200 911 text/javascript 11.3816ms
+[14:31:06 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 39
+[14:31:06 INF] CORS policy execution successful.
+[14:31:06 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:31:06 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[14:31:06 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[14:31:06 INF] Executed action Project.Controllers.LoginController.Login (Project) in 54.3721ms
+[14:31:06 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:31:06 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 401 null application/problem+json; charset=utf-8 90.5821ms
+[14:55:44 INF] Application is shutting down...
+[14:55:47 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:55:48 INF] Now listening on: http://localhost:5017
+[14:55:48 INF] Application started. Press Ctrl+C to shut down.
+[14:55:48 INF] Hosting environment: Development
+[14:55:48 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:55:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[14:55:53 WRN] Failed to determine the https port for redirect.
+[14:55:53 INF] The file /index.html was not modified
+[14:55:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 33.1631ms
+[14:55:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login_.js - null null
+[14:55:53 INF] The file /js/login_.js was not modified
+[14:55:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login_.js - 304 null text/javascript 7.6024ms
+[14:56:08 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 39
+[14:56:09 INF] CORS policy execution successful.
+[14:56:09 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:56:09 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[14:56:09 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[14:56:09 INF] Executed action Project.Controllers.LoginController.Login (Project) in 45.2168ms
+[14:56:09 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:56:09 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 401 null application/problem+json; charset=utf-8 112.3529ms
+[14:56:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[14:56:36 INF] The file /index.html was not modified
+[14:56:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 70.1923ms
+[14:56:49 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[14:56:49 INF] CORS policy execution successful.
+[14:56:49 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:56:49 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[14:56:49 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[14:56:49 INF] Executed action Project.Controllers.LoginController.Login (Project) in 91.4955ms
+[14:56:49 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[14:56:49 INF] Session started; Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1, Id:0a5627fc-f9ff-591b-2cfe-2e40e722c856
+[14:56:50 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 179.7423ms
+[14:56:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[14:56:50 INF] Sending file. Request path: '/profile.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\profile.html'
+[14:56:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 200 424 text/html 8.9076ms
+[14:56:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:56:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[14:56:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 404 0 null 9.3212ms
+[14:56:50 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[14:56:50 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login.js, Response status code: 404
+[14:56:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 812 text/javascript 12.3799ms
+[14:58:38 INF] Application is shutting down...
+[14:58:41 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[14:58:42 INF] Now listening on: http://localhost:5017
+[14:58:42 INF] Application started. Press Ctrl+C to shut down.
+[14:58:42 INF] Hosting environment: Development
+[14:58:42 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[14:59:01 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[14:59:01 WRN] Failed to determine the https port for redirect.
+[14:59:01 INF] The file /profile.html was not modified
+[14:59:01 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 37.3669ms
+[14:59:01 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[14:59:01 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[14:59:01 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 911 text/javascript 14.4347ms
+[14:59:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[14:59:06 INF] The file /profile.html was not modified
+[14:59:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 4.1422ms
+[14:59:12 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[14:59:12 INF] The file /profile.html was not modified
+[14:59:12 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 5.8839ms
+[14:59:13 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[14:59:13 INF] The file /profile.html was not modified
+[14:59:13 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 7.9327ms
+[14:59:13 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[14:59:13 INF] The file /profile.html was not modified
+[14:59:13 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 7.313ms
+[14:59:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login_.js - null null
+[14:59:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login_.js - 404 0 null 49.4232ms
+[14:59:30 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/js/login_.js, Response status code: 404
+[15:00:03 INF] Application is shutting down...
+[15:00:07 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:00:07 INF] Now listening on: http://localhost:5017
+[15:00:08 INF] Application started. Press Ctrl+C to shut down.
+[15:00:08 INF] Hosting environment: Development
+[15:00:08 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:00:12 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:00:12 WRN] Failed to determine the https port for redirect.
+[15:00:12 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:00:12 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 563 text/html 44.1024ms
+[15:00:26 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:00:26 INF] CORS policy execution successful.
+[15:00:26 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:00:26 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:00:26 INF] Accessing expired session, Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1
+[15:00:26 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:00:26 INF] Executed action Project.Controllers.LoginController.Login (Project) in 58.4178ms
+[15:00:26 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:00:26 INF] Session started; Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1, Id:6d6d90e0-7d25-5a39-af76-72cd8b3581c5
+[15:00:26 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 128.8695ms
+[15:04:12 INF] Application is shutting down...
+[15:04:16 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:04:16 INF] Now listening on: http://localhost:5017
+[15:04:16 INF] Application started. Press Ctrl+C to shut down.
+[15:04:16 INF] Hosting environment: Development
+[15:04:16 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:04:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[15:04:22 WRN] Failed to determine the https port for redirect.
+[15:04:22 INF] The file /profile.html was not modified
+[15:04:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 38.9133ms
+[15:04:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:04:22 INF] The file /js/login.js was not modified
+[15:04:23 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 6.2708ms
+[15:04:35 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:04:35 INF] The file /index.html was not modified
+[15:04:35 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 5.1562ms
+[15:04:47 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:04:47 INF] CORS policy execution successful.
+[15:04:47 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:04:47 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:04:47 INF] Accessing expired session, Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1
+[15:04:47 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:04:47 INF] Executed action Project.Controllers.LoginController.Login (Project) in 53.1153ms
+[15:04:47 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:04:47 INF] Session started; Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1, Id:6ce4fe9b-e499-a818-6956-35dac57ef808
+[15:04:47 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 124.1907ms
+[15:06:55 INF] Application is shutting down...
+[15:06:59 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:06:59 INF] Now listening on: http://localhost:5017
+[15:06:59 INF] Application started. Press Ctrl+C to shut down.
+[15:06:59 INF] Hosting environment: Development
+[15:06:59 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:07:11 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:07:11 WRN] Failed to determine the https port for redirect.
+[15:07:11 INF] The file /index.html was not modified
+[15:07:11 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 34.1004ms
+[15:07:20 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:07:20 INF] CORS policy execution successful.
+[15:07:20 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:07:20 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:07:20 INF] Accessing expired session, Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1
+[15:07:20 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:07:20 INF] Executed action Project.Controllers.LoginController.Login (Project) in 54.5693ms
+[15:07:20 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:07:20 INF] Session started; Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1, Id:e2af4042-9ccd-56fe-2f41-b35892ee1b72
+[15:07:20 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 129.9765ms
+[15:10:27 INF] Application is shutting down...
+[15:10:30 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:10:31 INF] Now listening on: http://localhost:5017
+[15:10:31 INF] Application started. Press Ctrl+C to shut down.
+[15:10:31 INF] Hosting environment: Development
+[15:10:31 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:10:41 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:10:41 WRN] Failed to determine the https port for redirect.
+[15:10:41 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:10:41 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 563 text/html 38.4516ms
+[15:10:42 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:10:42 INF] The file /js/login.js was not modified
+[15:10:42 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 10.2744ms
+[15:10:53 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:10:53 INF] CORS policy execution successful.
+[15:10:53 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:10:53 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:10:53 INF] Accessing expired session, Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1
+[15:10:53 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:10:53 INF] Executed action Project.Controllers.LoginController.Login (Project) in 54.9783ms
+[15:10:53 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:10:53 INF] Session started; Key:c00bbb16-3796-6831-0bb7-43f10fe76ab1, Id:4a0af4cd-9c9f-0010-2fa6-94927fae0cb1
+[15:10:53 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 126.0592ms
+[15:11:27 INF] Application is shutting down...
+[15:11:30 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:11:31 INF] Now listening on: http://localhost:5017
+[15:11:31 INF] Application started. Press Ctrl+C to shut down.
+[15:11:31 INF] Hosting environment: Development
+[15:11:31 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:12:05 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[15:12:05 WRN] Failed to determine the https port for redirect.
+[15:12:05 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 63.1076ms
+[15:12:05 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[15:12:07 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:12:07 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:12:07 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 563 text/html 22.9373ms
+[15:12:07 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:12:07 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[15:12:07 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 911 text/javascript 8.5639ms
+[15:12:25 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:12:25 INF] CORS policy execution successful.
+[15:12:25 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:12:25 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:12:25 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:12:25 INF] Executed action Project.Controllers.LoginController.Login (Project) in 52.2911ms
+[15:12:25 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:12:25 INF] Session started; Key:f892c270-a55a-bcd8-6a9f-d673488e923d, Id:2257e969-43ed-2c89-0537-980bcb29051a
+[15:12:25 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 93.3287ms
+[15:12:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[15:12:25 INF] Sending file. Request path: '/profile.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\profile.html'
+[15:12:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 200 424 text/html 8.5702ms
+[15:12:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:12:25 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[15:12:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 813 text/javascript 5.723ms
+[15:12:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:12:25 INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+[15:12:25 INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+[15:12:25 INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+[15:12:25 INF] AuthenticationScheme: Bearer was challenged.
+[15:12:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 401 0 null 38.3484ms
+[15:12:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[15:12:25 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:12:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 200 563 text/html 4.9893ms
+[15:26:53 INF] Application is shutting down...
+[15:26:56 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:26:56 INF] Now listening on: http://localhost:5017
+[15:26:56 INF] Application started. Press Ctrl+C to shut down.
+[15:26:56 INF] Hosting environment: Development
+[15:26:56 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:27:10 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:27:10 WRN] Failed to determine the https port for redirect.
+[15:27:10 INF] CORS policy execution successful.
+[15:27:10 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:27:10 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:27:10 INF] Accessing expired session, Key:f892c270-a55a-bcd8-6a9f-d673488e923d
+[15:27:10 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:27:10 INF] Executed action Project.Controllers.LoginController.Login (Project) in 53.8053ms
+[15:27:10 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:27:10 INF] Session started; Key:f892c270-a55a-bcd8-6a9f-d673488e923d, Id:bd8ca86b-40fb-e6cb-0681-5f12a89645b7
+[15:27:10 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 148.0621ms
+[15:27:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:27:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:27:10 INF] The file /js/login.js was not modified
+[15:27:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 20.3026ms
+[15:27:10 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[15:27:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 816 text/javascript 24.6645ms
+[15:27:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:27:10 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:27:10 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:27:10 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:27:10 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 6.1216ms
+[15:27:10 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:27:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 64.365ms
+[15:29:04 INF] Application is shutting down...
+[15:29:07 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:29:07 INF] Now listening on: http://localhost:5017
+[15:29:07 INF] Application started. Press Ctrl+C to shut down.
+[15:29:07 INF] Hosting environment: Development
+[15:29:07 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:29:23 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:29:23 WRN] Failed to determine the https port for redirect.
+[15:29:23 INF] The file /index.html was not modified
+[15:29:23 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 26.7379ms
+[15:29:31 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:29:31 INF] CORS policy execution successful.
+[15:29:31 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:29:31 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:29:31 INF] Accessing expired session, Key:f892c270-a55a-bcd8-6a9f-d673488e923d
+[15:29:31 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:29:31 INF] Executed action Project.Controllers.LoginController.Login (Project) in 60.3011ms
+[15:29:31 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:29:31 INF] Session started; Key:f892c270-a55a-bcd8-6a9f-d673488e923d, Id:0ff8e864-ff28-b6ed-c27c-16589eca8a87
+[15:29:31 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 128.6977ms
+[15:29:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:29:31 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[15:29:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 816 text/javascript 13.6298ms
+[15:29:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:29:31 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:29:31 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:29:31 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:29:31 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 6.0305ms
+[15:29:31 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:29:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 60.5218ms
+[15:30:09 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[15:30:09 INF] Sending file. Request path: '/users.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\users.html'
+[15:30:09 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 200 2038 text/html 13.9537ms
+[15:30:09 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[15:30:09 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[15:30:09 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 4784 text/javascript 7.1035ms
+[15:30:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html? - null null
+[15:30:30 INF] Sending file. Request path: '/users.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\users.html'
+[15:30:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html? - 200 2038 text/html 9.9036ms
+[15:31:47 INF] Application is shutting down...
+[15:31:51 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:31:51 INF] Now listening on: http://localhost:5017
+[15:31:51 INF] Application started. Press Ctrl+C to shut down.
+[15:31:51 INF] Hosting environment: Development
+[15:31:51 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:32:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[15:32:14 WRN] Failed to determine the https port for redirect.
+[15:32:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 58.5382ms
+[15:32:14 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[15:32:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:32:17 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:32:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 563 text/html 20.0001ms
+[15:32:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:32:17 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[15:32:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 911 text/javascript 9.3986ms
+[15:33:06 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 36
+[15:33:06 INF] CORS policy execution successful.
+[15:33:06 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:33:06 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:33:06 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:33:06 INF] Executed action Project.Controllers.LoginController.Login (Project) in 51.7968ms
+[15:33:06 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:33:06 INF] Session started; Key:ac5e95a3-49d7-2a53-c3da-11fb54605d8b, Id:d9194559-0d93-5bdf-3801-047cde7bb6a7
+[15:33:06 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 91.6839ms
+[15:33:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[15:33:06 INF] Sending file. Request path: '/profile.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\profile.html'
+[15:33:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 200 424 text/html 6.761ms
+[15:33:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:33:06 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[15:33:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 816 text/javascript 6.9602ms
+[15:33:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:33:06 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:33:06 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:33:06 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:33:06 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 11.3198ms
+[15:33:06 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:33:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 64.8753ms
+[15:36:41 INF] Application is shutting down...
+[15:36:45 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:36:45 INF] Now listening on: http://localhost:5017
+[15:36:45 INF] Application started. Press Ctrl+C to shut down.
+[15:36:45 INF] Hosting environment: Development
+[15:36:45 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:37:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:37:14 WRN] Failed to determine the https port for redirect.
+[15:37:14 INF] The file /index.html was not modified
+[15:37:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 30.6295ms
+[15:37:25 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:37:25 INF] CORS policy execution successful.
+[15:37:25 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:37:25 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:37:25 INF] Accessing expired session, Key:ac5e95a3-49d7-2a53-c3da-11fb54605d8b
+[15:37:25 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:37:25 INF] Executed action Project.Controllers.LoginController.Login (Project) in 54.7953ms
+[15:37:25 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:37:25 INF] Session started; Key:ac5e95a3-49d7-2a53-c3da-11fb54605d8b, Id:0922fb6c-b69c-940f-2c7b-e3cef1da44ca
+[15:37:25 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 139.4892ms
+[15:37:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:37:25 INF] The file /js/profile.js was not modified
+[15:37:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 304 null text/javascript 9.1417ms
+[15:37:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:37:25 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:37:25 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:37:25 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:37:25 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 7.0902ms
+[15:37:25 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:37:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 62.5824ms
+[15:37:40 INF] Application is shutting down...
+[15:37:45 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:37:45 INF] Now listening on: http://localhost:5017
+[15:37:45 INF] Application started. Press Ctrl+C to shut down.
+[15:37:45 INF] Hosting environment: Development
+[15:37:45 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:37:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[15:37:56 WRN] Failed to determine the https port for redirect.
+[15:37:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 166.1188ms
+[15:37:56 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[15:37:58 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[15:37:58 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:37:58 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 563 text/html 32.7627ms
+[15:37:58 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:37:59 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[15:37:59 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 989 text/javascript 26.4724ms
+[15:38:31 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 36
+[15:38:31 INF] CORS policy execution successful.
+[15:38:31 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:38:31 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:38:31 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:38:31 INF] Executed action Project.Controllers.LoginController.Login (Project) in 71.8195ms
+[15:38:31 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:38:31 INF] Session started; Key:60a7c986-4e98-daf3-5b92-0b3dc544818a, Id:fa22931f-7a2c-28d5-fbdc-d25ae15f5908
+[15:38:31 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 122.8087ms
+[15:38:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[15:38:31 INF] Sending file. Request path: '/profile.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\profile.html'
+[15:38:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 200 424 text/html 5.9942ms
+[15:38:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:38:31 INF] The file /js/login.js was not modified
+[15:38:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:38:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 8.3736ms
+[15:38:31 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[15:38:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 816 text/javascript 14.8625ms
+[15:38:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:38:31 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:38:31 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:38:31 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:38:31 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 8.8587ms
+[15:38:31 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:38:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 74.7347ms
+[15:38:46 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:38:46 INF] The file /js/login.js was not modified
+[15:38:46 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 35.895ms
+[15:38:54 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 36
+[15:38:54 INF] CORS policy execution successful.
+[15:38:54 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:38:54 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:38:54 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:38:54 INF] Executed action Project.Controllers.LoginController.Login (Project) in 9.893ms
+[15:38:54 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:38:54 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 36.9803ms
+[15:38:54 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:38:54 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:38:54 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:38:54 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:38:54 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.183ms
+[15:38:54 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:38:54 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 27.8357ms
+[15:39:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[15:39:00 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[15:39:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 200 563 text/html 10.3087ms
+[15:39:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[15:39:00 INF] The file /js/login.js was not modified
+[15:39:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 16.0517ms
+[15:39:09 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[15:39:09 INF] CORS policy execution successful.
+[15:39:09 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:39:09 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:39:09 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:39:09 INF] Executed action Project.Controllers.LoginController.Login (Project) in 7.7198ms
+[15:39:09 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:39:09 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 32.6897ms
+[15:39:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:39:10 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:39:10 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:39:10 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:39:10 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 4.1766ms
+[15:39:10 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:39:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 27.2441ms
+[15:39:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[15:39:14 INF] Sending file. Request path: '/users.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\users.html'
+[15:39:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 200 2038 text/html 5.086ms
+[15:39:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[15:39:14 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[15:39:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 4784 text/javascript 12.6247ms
+[15:40:27 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html? - null null
+[15:40:27 INF] Sending file. Request path: '/users.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\users.html'
+[15:40:27 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html? - 200 2038 text/html 8.696ms
+[16:04:04 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[16:04:04 INF] The file /js/users.js was not modified
+[16:04:04 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 4.3833ms

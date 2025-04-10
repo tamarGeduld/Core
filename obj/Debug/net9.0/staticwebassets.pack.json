@@ -1,16 +1,36 @@
 {
   "Files": [
     {
-      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
-    },
-    {
       "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\script.js",
-      "PackagePath": "staticwebassets\\js\\script.js"
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\books.js",
+      "PackagePath": "staticwebassets\\js\\books.js"
+    },
+    {
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
+    },
+    {
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\js\\users.js",
+      "PackagePath": "staticwebassets\\js\\users.js"
+    },
+    {
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\profile.html",
+      "PackagePath": "staticwebassets\\profile.html"
+    },
+    {
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\style\\style.css",
+      "PackagePath": "staticwebassets\\style\\style.css"
+    },
+    {
+      "Id": "D:\\מסמכים\\לימודים\\Core\\Project\\wwwroot\\users.html",
+      "PackagePath": "staticwebassets\\users.html"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

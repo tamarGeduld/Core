@@ -14,5 +14,7 @@ public interface IBookService
     bool Update(int id, Book newBook);
 
     bool Delete(int id);
-   
+    
+    void DeleteBooksByUserId(int userId);
+
 }
