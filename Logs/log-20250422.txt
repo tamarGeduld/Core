@@ -1,0 +1,538 @@
+[15:56:12 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:56:12 INF] Now listening on: http://localhost:5017
+[15:56:12 INF] Application started. Press Ctrl+C to shut down.
+[15:56:12 INF] Hosting environment: Development
+[15:56:12 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[15:56:23 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[15:56:23 WRN] Failed to determine the https port for redirect.
+[15:56:23 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 90.6046ms
+[15:56:23 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[15:56:35 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[15:56:35 INF] CORS policy execution successful.
+[15:56:35 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:56:35 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:56:35 INF] Accessing expired session, Key:2a7f4866-cad1-4a0d-fe95-732dcf0bd638
+[15:56:36 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:56:36 INF] Executed action Project.Controllers.LoginController.Login (Project) in 75.5575ms
+[15:56:36 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:56:36 INF] Session started; Key:2a7f4866-cad1-4a0d-fe95-732dcf0bd638, Id:2a042160-c3bb-332d-b0ec-a516934cb802
+[15:56:36 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 123.9706ms
+[15:56:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:56:36 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:56:36 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:56:36 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:56:36 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 5.4272ms
+[15:56:36 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:56:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 60.215ms
+[15:56:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[15:56:36 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[15:56:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 3831 text/javascript 19.9476ms
+[15:56:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/books.js - null null
+[15:56:36 INF] Sending file. Request path: '/js/books.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\books.js'
+[15:56:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/books.js - 200 1625 text/javascript 12.9462ms
+[15:56:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:56:36 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:56:36 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:56:36 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:56:36 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.3661ms
+[15:56:36 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:56:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 16.7023ms
+[15:56:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:56:36 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:56:36 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:56:36 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:56:36 INF] Executed action Project.Controllers.BookController.Get (Project) in 3.7767ms
+[15:56:36 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:56:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 17.3747ms
+[15:56:42 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/book/4 - null null
+[15:56:42 INF] CORS policy execution successful.
+[15:56:42 INF] Executing endpoint 'Project.Controllers.BookController.Delete (Project)'
+[15:56:42 INF] Route matched with {action = "Delete", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.BookController (Project).
+[15:56:42 INF] Executing StatusCodeResult, setting HTTP status code 200
+[15:56:42 INF] Executed action Project.Controllers.BookController.Delete (Project) in 10.6788ms
+[15:56:42 INF] Executed endpoint 'Project.Controllers.BookController.Delete (Project)'
+[15:56:42 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/book/4 - 200 0 null 29.4066ms
+[15:56:42 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:56:42 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:56:42 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:56:42 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:56:42 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.6431ms
+[15:56:42 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:56:42 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 15.0754ms
+[15:56:50 INF] Request starting HTTP/1.1 PUT http://localhost:5017/book/3 - application/json 49
+[15:56:50 INF] CORS policy execution successful.
+[15:56:50 INF] Executing endpoint 'Project.Controllers.BookController.Put (Project)'
+[15:56:50 INF] Route matched with {action = "Put", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Put(Int32, Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[15:56:50 INF] Executing StatusCodeResult, setting HTTP status code 204
+[15:56:50 INF] Executed action Project.Controllers.BookController.Put (Project) in 5.5809ms
+[15:56:50 INF] Executed endpoint 'Project.Controllers.BookController.Put (Project)'
+[15:56:50 INF] Request finished HTTP/1.1 PUT http://localhost:5017/book/3 - 204 null null 23.7146ms
+[15:56:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:56:50 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:56:50 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:56:50 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:56:50 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.0297ms
+[15:56:50 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:56:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 17.6843ms
+[15:57:01 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 30
+[15:57:01 INF] CORS policy execution successful.
+[15:57:01 INF] Executing endpoint 'Project.Controllers.BookController.Post (Project)'
+[15:57:01 INF] Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[15:57:01 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:57:01 INF] Executed action Project.Controllers.BookController.Post (Project) in 16.0468ms
+[15:57:01 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:57:01 INF] Executed endpoint 'Project.Controllers.BookController.Post (Project)'
+[15:57:01 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:57:01 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 201 null application/json; charset=utf-8 35.259ms
+[15:57:01 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:57:01 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:57:01 INF] Executed action Project.Controllers.BookController.Get (Project) in 5.0562ms
+[15:57:01 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:57:01 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 21.3774ms
+[15:57:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[15:57:06 INF] Sending file. Request path: '/users.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\users.html'
+[15:57:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 200 1907 text/html 15.2692ms
+[15:57:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[15:57:06 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[15:57:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5145 text/javascript 8.3861ms
+[15:57:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[15:57:06 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[15:57:06 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[15:57:06 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:57:06 INF] Executed action Project.Controllers.UserController.Get (Project) in 3.9501ms
+[15:57:06 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[15:57:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 18.5871ms
+[15:57:09 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/user/5 - null null
+[15:57:09 INF] CORS policy execution successful.
+[15:57:09 INF] Executing endpoint 'Project.Controllers.UserController.Delete (Project)'
+[15:57:09 INF] Route matched with {action = "Delete", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.UserController (Project).
+[15:57:09 INF] Executing StatusCodeResult, setting HTTP status code 200
+[15:57:09 INF] Executed action Project.Controllers.UserController.Delete (Project) in 7.8194ms
+[15:57:09 INF] Executed endpoint 'Project.Controllers.UserController.Delete (Project)'
+[15:57:09 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/user/5 - 200 0 null 26.1708ms
+[15:57:09 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[15:57:09 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[15:57:09 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[15:57:09 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:57:09 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.8278ms
+[15:57:09 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[15:57:09 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 10.8314ms
+[15:57:35 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[15:57:35 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 5.6198ms
+[15:57:35 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[15:57:35 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[15:57:35 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 3.9126ms
+[15:57:35 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[15:58:20 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 36
+[15:58:20 INF] CORS policy execution successful.
+[15:58:20 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:58:20 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:58:20 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:58:20 INF] Executed action Project.Controllers.LoginController.Login (Project) in 1.4001ms
+[15:58:20 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:58:20 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 13.7303ms
+[15:58:20 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:58:20 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:20 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:58:20 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:58:20 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.5271ms
+[15:58:20 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:20 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 10.0353ms
+[15:58:20 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:58:20 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:20 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:58:20 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:58:20 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.8431ms
+[15:58:20 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:20 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.3271ms
+[15:58:20 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:58:20 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:58:20 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:58:20 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:58:20 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.1577ms
+[15:58:20 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:58:20 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.0255ms
+[15:58:42 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 47
+[15:58:42 INF] CORS policy execution successful.
+[15:58:42 INF] Executing endpoint 'Project.Controllers.BookController.Post (Project)'
+[15:58:42 INF] Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[15:58:42 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:58:42 INF] Executed action Project.Controllers.BookController.Post (Project) in 2.6798ms
+[15:58:42 INF] Executed endpoint 'Project.Controllers.BookController.Post (Project)'
+[15:58:42 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:58:42 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 201 null application/json; charset=utf-8 15.2013ms
+[15:58:42 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:58:42 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:58:42 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:58:42 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.2027ms
+[15:58:42 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:58:42 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 15.1491ms
+[15:58:56 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[15:58:56 INF] CORS policy execution successful.
+[15:58:56 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:58:56 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[15:58:56 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[15:58:56 INF] Executed action Project.Controllers.LoginController.Login (Project) in 4.0667ms
+[15:58:56 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[15:58:56 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 19.261ms
+[15:58:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:58:56 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:56 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:58:56 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:58:56 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.9376ms
+[15:58:56 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 13.3553ms
+[15:58:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[15:58:56 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:56 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[15:58:56 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[15:58:56 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.5941ms
+[15:58:56 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[15:58:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.9075ms
+[15:58:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[15:58:56 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:58:56 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[15:58:56 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:58:56 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.7981ms
+[15:58:56 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[15:58:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.3355ms
+[15:59:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[15:59:55 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[15:59:55 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[15:59:55 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[15:59:55 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.535ms
+[15:59:55 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[15:59:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 14.3499ms
+[16:00:27 INF] Request starting HTTP/1.1 POST http://localhost:5017/user - application/json 55
+[16:00:27 INF] CORS policy execution successful.
+[16:00:27 INF] Executing endpoint 'Project.Controllers.UserController.Post (Project)'
+[16:00:27 INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.User) on controller Project.Controllers.UserController (Project).
+[16:00:27 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[16:00:27 INF] Executed action Project.Controllers.UserController.Post (Project) in 6.5353ms
+[16:00:27 INF] Executed endpoint 'Project.Controllers.UserController.Post (Project)'
+[16:00:27 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[16:00:27 INF] Request finished HTTP/1.1 POST http://localhost:5017/user - 201 null application/json; charset=utf-8 19.4041ms
+[16:00:27 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[16:00:27 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[16:00:27 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:00:27 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.6792ms
+[16:00:27 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[16:00:27 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 14.7678ms
+[16:00:58 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 45
+[16:00:58 INF] CORS policy execution successful.
+[16:00:58 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:00:58 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[16:00:58 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[16:00:58 INF] Executed action Project.Controllers.LoginController.Login (Project) in 2.0054ms
+[16:00:58 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:00:58 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 17.6404ms
+[16:00:58 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[16:00:58 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:00:58 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[16:00:58 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[16:00:58 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.9134ms
+[16:00:58 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:00:58 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 11.9018ms
+[16:00:58 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[16:00:58 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:00:58 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[16:00:58 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[16:00:58 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.5741ms
+[16:00:58 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:00:58 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.529ms
+[16:00:58 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[16:00:58 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:00:58 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[16:00:58 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:00:58 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.5095ms
+[16:00:58 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:00:58 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 9.4001ms
+[16:01:10 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 44
+[16:01:10 INF] CORS policy execution successful.
+[16:01:10 INF] Executing endpoint 'Project.Controllers.BookController.Post (Project)'
+[16:01:10 INF] Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[16:01:10 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[16:01:10 INF] Executed action Project.Controllers.BookController.Post (Project) in 3.7823ms
+[16:01:10 INF] Executed endpoint 'Project.Controllers.BookController.Post (Project)'
+[16:01:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[16:01:10 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 201 null application/json; charset=utf-8 18.4247ms
+[16:01:10 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:01:10 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[16:01:10 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:01:10 INF] Executed action Project.Controllers.BookController.Get (Project) in 3.3036ms
+[16:01:10 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:01:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 21.0337ms
+[16:01:23 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 41
+[16:01:23 INF] CORS policy execution successful.
+[16:01:23 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:24 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[16:01:24 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[16:01:24 INF] Executed action Project.Controllers.LoginController.Login (Project) in 19.9355ms
+[16:01:24 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:24 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 401 null application/problem+json; charset=utf-8 32.3974ms
+[16:01:39 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[16:01:39 INF] CORS policy execution successful.
+[16:01:39 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:39 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[16:01:39 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[16:01:39 INF] Executed action Project.Controllers.LoginController.Login (Project) in 1.7578ms
+[16:01:39 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:39 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 401 null application/problem+json; charset=utf-8 14.9248ms
+[16:01:41 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 38
+[16:01:41 INF] CORS policy execution successful.
+[16:01:41 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:41 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[16:01:41 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[16:01:41 INF] Executed action Project.Controllers.LoginController.Login (Project) in 1.7227ms
+[16:01:41 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:41 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 401 null application/problem+json; charset=utf-8 15.8307ms
+[16:01:48 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[16:01:48 INF] CORS policy execution successful.
+[16:01:48 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:48 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[16:01:48 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[16:01:48 INF] Executed action Project.Controllers.LoginController.Login (Project) in 4.7352ms
+[16:01:48 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:01:48 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 21.1329ms
+[16:01:48 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[16:01:48 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:01:48 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[16:01:48 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[16:01:48 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.1115ms
+[16:01:48 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:01:48 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.8498ms
+[16:01:48 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[16:01:48 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:01:48 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[16:01:48 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[16:01:48 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.2633ms
+[16:01:48 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:01:48 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.5068ms
+[16:01:48 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[16:01:48 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:01:48 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[16:01:48 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:01:48 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.6374ms
+[16:01:48 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:01:48 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 15.796ms
+[16:04:21 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[16:04:21 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[16:04:21 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[16:04:21 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:04:21 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.7268ms
+[16:04:21 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[16:04:21 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 15.0714ms
+[16:04:41 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[16:04:41 INF] CORS policy execution successful.
+[16:04:41 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:04:41 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[16:04:41 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[16:04:41 INF] Executed action Project.Controllers.LoginController.Login (Project) in 2.8941ms
+[16:04:41 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[16:04:41 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 16.3524ms
+[16:04:41 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[16:04:41 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:04:41 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[16:04:41 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[16:04:41 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.8164ms
+[16:04:41 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:04:41 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 16.0972ms
+[16:04:41 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[16:04:41 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:04:41 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[16:04:41 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[16:04:41 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 0.9533ms
+[16:04:41 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[16:04:41 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.0743ms
+[16:04:41 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[16:04:41 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:04:41 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[16:04:41 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:04:41 INF] Executed action Project.Controllers.BookController.Get (Project) in 0.8733ms
+[16:04:41 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[16:04:41 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 7.6277ms
+[16:04:46 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[16:04:46 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[16:04:46 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[16:04:46 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[16:04:46 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.8787ms
+[16:04:46 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[16:04:46 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 18.6616ms
+[17:25:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[17:25:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 3.9132ms
+[17:25:26 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[17:25:36 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[17:25:37 INF] CORS policy execution successful.
+[17:25:37 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[17:25:37 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[17:25:37 INF] Accessing expired session, Key:2a7f4866-cad1-4a0d-fe95-732dcf0bd638
+[17:25:37 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[17:25:37 INF] Executed action Project.Controllers.LoginController.Login (Project) in 3.3561ms
+[17:25:37 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[17:25:37 INF] Session started; Key:2a7f4866-cad1-4a0d-fe95-732dcf0bd638, Id:8abd6e44-4b46-90a8-b3d6-c9d47e4bc563
+[17:25:37 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 15.8714ms
+[17:25:37 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[17:25:37 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:25:37 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[17:25:37 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[17:25:37 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.4664ms
+[17:25:37 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:25:37 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 13.3884ms
+[17:25:37 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[17:25:37 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:25:37 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[17:25:37 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[17:25:37 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 0.8731ms
+[17:25:37 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:25:37 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.7456ms
+[17:25:37 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:25:37 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:25:37 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:25:37 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:25:37 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.1615ms
+[17:25:37 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:25:37 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 9.784ms
+[17:26:01 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 31
+[17:26:01 INF] CORS policy execution successful.
+[17:26:01 INF] Executing endpoint 'Project.Controllers.BookController.Post (Project)'
+[17:26:01 INF] Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[17:26:01 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[17:26:01 INF] Executed action Project.Controllers.BookController.Post (Project) in 2.1194ms
+[17:26:01 INF] Executed endpoint 'Project.Controllers.BookController.Post (Project)'
+[17:26:01 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 201 null application/json; charset=utf-8 13.5981ms
+[17:26:01 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:26:01 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:01 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:26:01 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:01 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.277ms
+[17:26:01 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:01 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 12.7415ms
+[17:26:05 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/book/7 - null null
+[17:26:05 INF] CORS policy execution successful.
+[17:26:05 INF] Executing endpoint 'Project.Controllers.BookController.Delete (Project)'
+[17:26:05 INF] Route matched with {action = "Delete", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.BookController (Project).
+[17:26:05 INF] Executing StatusCodeResult, setting HTTP status code 200
+[17:26:05 INF] Executed action Project.Controllers.BookController.Delete (Project) in 2.151ms
+[17:26:05 INF] Executed endpoint 'Project.Controllers.BookController.Delete (Project)'
+[17:26:05 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/book/7 - 200 0 null 12.9794ms
+[17:26:05 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:26:05 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:05 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:26:05 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:05 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.8912ms
+[17:26:05 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:05 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 13.4442ms
+[17:26:12 INF] Request starting HTTP/1.1 PUT http://localhost:5017/book/6 - application/json 47
+[17:26:12 INF] CORS policy execution successful.
+[17:26:12 INF] Executing endpoint 'Project.Controllers.BookController.Put (Project)'
+[17:26:12 INF] Route matched with {action = "Put", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Put(Int32, Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[17:26:12 INF] Executing StatusCodeResult, setting HTTP status code 204
+[17:26:12 INF] Executed action Project.Controllers.BookController.Put (Project) in 3.016ms
+[17:26:12 INF] Executed endpoint 'Project.Controllers.BookController.Put (Project)'
+[17:26:12 INF] Request finished HTTP/1.1 PUT http://localhost:5017/book/6 - 204 null null 16.0895ms
+[17:26:12 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:26:12 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:12 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:26:12 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:12 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.5218ms
+[17:26:12 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:12 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.6753ms
+[17:26:15 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[17:26:15 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[17:26:15 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[17:26:15 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:15 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.5035ms
+[17:26:15 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[17:26:15 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 14.3233ms
+[17:26:17 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/user/5 - null null
+[17:26:17 INF] CORS policy execution successful.
+[17:26:17 INF] Executing endpoint 'Project.Controllers.UserController.Delete (Project)'
+[17:26:17 INF] Route matched with {action = "Delete", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.UserController (Project).
+[17:26:17 INF] Executing StatusCodeResult, setting HTTP status code 200
+[17:26:17 INF] Executed action Project.Controllers.UserController.Delete (Project) in 3.7079ms
+[17:26:17 INF] Executed endpoint 'Project.Controllers.UserController.Delete (Project)'
+[17:26:17 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/user/5 - 200 0 null 18.9588ms
+[17:26:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[17:26:17 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[17:26:17 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[17:26:17 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:17 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.6408ms
+[17:26:17 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[17:26:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 10.7401ms
+[17:26:30 INF] Request starting HTTP/1.1 POST http://localhost:5017/user - application/json 46
+[17:26:30 INF] CORS policy execution successful.
+[17:26:30 INF] Executing endpoint 'Project.Controllers.UserController.Post (Project)'
+[17:26:30 INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.User) on controller Project.Controllers.UserController (Project).
+[17:26:30 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[17:26:30 INF] Executed action Project.Controllers.UserController.Post (Project) in 2.4755ms
+[17:26:30 INF] Executed endpoint 'Project.Controllers.UserController.Post (Project)'
+[17:26:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[17:26:30 INF] Request finished HTTP/1.1 POST http://localhost:5017/user - 201 null application/json; charset=utf-8 13.33ms
+[17:26:30 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[17:26:30 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[17:26:30 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:30 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.0251ms
+[17:26:30 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[17:26:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 15.7586ms
+[17:26:40 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[17:26:40 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 4.2101ms
+[17:26:40 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[17:26:51 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 36
+[17:26:51 INF] CORS policy execution successful.
+[17:26:51 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[17:26:51 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[17:26:51 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[17:26:51 INF] Executed action Project.Controllers.LoginController.Login (Project) in 1.6466ms
+[17:26:51 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[17:26:51 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 10.1544ms
+[17:26:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[17:26:51 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:26:51 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[17:26:51 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[17:26:51 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.5831ms
+[17:26:51 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:26:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 11.3869ms
+[17:26:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[17:26:51 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:26:51 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[17:26:51 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[17:26:51 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.1694ms
+[17:26:51 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[17:26:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.7235ms
+[17:26:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:26:51 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:51 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:26:51 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:51 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.5136ms
+[17:26:51 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.9949ms
+[17:26:59 INF] Request starting HTTP/1.1 POST http://localhost:5017/book - application/json 30
+[17:26:59 INF] CORS policy execution successful.
+[17:26:59 INF] Executing endpoint 'Project.Controllers.BookController.Post (Project)'
+[17:26:59 INF] Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(Project.Models.BookDto) on controller Project.Controllers.BookController (Project).
+[17:26:59 INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[17:26:59 INF] Executed action Project.Controllers.BookController.Post (Project) in 3.3353ms
+[17:26:59 INF] Executed endpoint 'Project.Controllers.BookController.Post (Project)'
+[17:26:59 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:26:59 INF] Request finished HTTP/1.1 POST http://localhost:5017/book - 201 null application/json; charset=utf-8 14.5506ms
+[17:26:59 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:59 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:26:59 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:26:59 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.4033ms
+[17:26:59 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:26:59 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.7332ms
+[17:27:03 INF] Request starting HTTP/1.1 DELETE http://localhost:5017/book/6 - null null
+[17:27:03 INF] CORS policy execution successful.
+[17:27:03 INF] Executing endpoint 'Project.Controllers.BookController.Delete (Project)'
+[17:27:03 INF] Route matched with {action = "Delete", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Project.Controllers.BookController (Project).
+[17:27:03 INF] Executing StatusCodeResult, setting HTTP status code 200
+[17:27:03 INF] Executed action Project.Controllers.BookController.Delete (Project) in 1.6545ms
+[17:27:03 INF] Executed endpoint 'Project.Controllers.BookController.Delete (Project)'
+[17:27:03 INF] Request finished HTTP/1.1 DELETE http://localhost:5017/book/6 - 200 0 null 12.5411ms
+[17:27:03 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[17:27:03 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:27:03 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[17:27:03 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[17:27:03 INF] Executed action Project.Controllers.BookController.Get (Project) in 3.0987ms
+[17:27:03 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[17:27:03 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 12.9001ms

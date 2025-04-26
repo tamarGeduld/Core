@@ -1,153 +1,185 @@
 body {
-    font-family: 'Varela Round', 'Segoe UI', sans-serif;
-    direction: rtl;
-    background: linear-gradient(to right, #f7faff, #e0f0ff);
-    color: #2c3e50;
-    margin: 0;
-    padding: 30px;
-    line-height: 1.7;
+  font-family: 'Varela Round', 'Segoe UI', sans-serif;
+  direction: rtl;
+  background: linear-gradient(to right, #f7faff, #e0f0ff);
+  color: #2c3e50;
+  margin: 0;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+/* כותרות */
+h2,
+h3 {
+  color: #2a4365;
+  margin-bottom: 14px;
+  font-weight: 700;
+  border-bottom: 2px solid #81c3ff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* טפסים */
+form {
+  background: #ffffffee;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+  max-width: 550px;
+  transition: all 0.3s ease-in-out;
+  animation: fadeIn 0.4s ease-in;
+}
+
+/* שדות */
+input,
+select {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 10px 0;
+  border: 1px solid #ccd6dd;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fbfbfb;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #66aaff;
+  box-shadow: 0 0 5px #66aaff88;
+  outline: none;
+}
+
+/* כפתורים */
+button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: #2e6db0;
+  transform: translateY(-1px);
+}
+
+/* טבלאות */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f1f6fa;
+  color: #444;
+  font-weight: 600;
+}
+
+/* הודעות */
+#message,
+#error,
+#messageBox {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+  max-width: 500px;
+  transition: all 0.4s;
+}
+
+#message,
+#messageBox {
+  background-color: #e2fbe4;
+  color: #20734a;
+}
+
+#error {
+  background-color: #ffefef;
+  color: #c0392b;
+}
+
+/* ספרים */
+#bookList div {
+  background: #ffffffcc;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease-in-out;
+}
+
+#bookList div:hover {
+  transform: scale(1.015);
+}
+
+/* קישורים */
+a {
+  color: #3a7ca5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* אזורי עריכה */
+#editUserFormContainer,
+#editBookFormContainer {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 550px;
+  animation: fadeIn 0.4s ease-in;
+}
+
+/* אנימציה */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  
-  /* כותרות */
-  h2, h3 {
-    color: #2a4365;
-    margin-bottom: 14px;
-    font-weight: 700;
-    border-bottom: 2px solid #81c3ff;
-    display: inline-block;
-    padding-bottom: 5px;
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  /* טפסים */
-  form {
-    background: #ffffffee;
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-    margin-bottom: 25px;
-    max-width: 550px;
-    transition: all 0.3s ease-in-out;
-    animation: fadeIn 0.4s ease-in;
-  }
-  
-  /* שדות */
-  input, select {
-    width: 100%;
-    padding: 12px 16px;
-    margin: 10px 0;
-    border: 1px solid #ccd6dd;
-    border-radius: 10px;
-    font-size: 1rem;
-    background-color: #fbfbfb;
-    transition: border-color 0.3s;
-  }
-  
-  input:focus, select:focus {
-    border-color: #66aaff;
-    box-shadow: 0 0 5px #66aaff88;
-    outline: none;
-  }
-  
-  /* כפתורים */
-  button {
-    background-color: #4a90e2;
-    color: white;
-    padding: 10px 24px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: all 0.25s;
-  }
-  
-  button:hover {
-    background-color: #2e6db0;
-    transform: translateY(-1px);
-  }
-  
-  /* טבלאות */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-  
-  th, td {
-    padding: 14px 16px;
-    text-align: center;
-    border-bottom: 1px solid #eee;
-  }
-  
-  th {
-    background-color: #f1f6fa;
-    color: #444;
-    font-weight: 600;
-  }
-  
-  /* הודעות */
-  #message, #error, #messageBox {
-    padding: 12px 20px;
-    border-radius: 10px;
-    font-weight: 500;
-    margin-top: 10px;
-    max-width: 500px;
-    transition: all 0.4s;
-  }
-  
-  #message, #messageBox {
-    background-color: #e2fbe4;
-    color: #20734a;
-  }
-  
-  #error {
-    background-color: #ffefef;
-    color: #c0392b;
-  }
-  
-  /* ספרים */
-  #bookList div {
-    background: #ffffffcc;
-    padding: 16px;
-    border-radius: 12px;
-    margin-bottom: 14px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.04);
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  #bookList div:hover {
-    transform: scale(1.015);
-  }
-  
-  /* קישורים */
-  a {
-    color: #3a7ca5;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* אזורי עריכה */
-  #editUserFormContainer,
-  #editBookFormContainer {
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 16px;
-    background: #fff;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    max-width: 550px;
-    animation: fadeIn 0.4s ease-in;
-  }
-  
-  /* אנימציה */
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  
+}
+
+/* כפתור ניווט עיצובי */
+.nav-button {
+  background-color: #81c3ff;
+  color: #2c3e50;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: inline-block;
+}
+
+.nav-button:hover {
+  background-color: #5fa8d3;
+  transform: translateY(-2px);
+}

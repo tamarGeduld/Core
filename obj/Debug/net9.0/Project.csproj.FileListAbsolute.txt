@@ -60,7 +60,7 @@ D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\rghzcwij
 D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\l5hgulj10e-9r5kcotrqo.gz
 D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\bswnttezdw-yhv1gkrht0.gz
 D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\y3xk6rhd24-q4x401mlqh.gz
-D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\w61onso21h-xsua6dh5dn.gz
-D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\027mcav4t1-qxgv4to9xx.gz
 D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\fiusmi619a-6r8fkyfvx8.gz
-D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\58p6p8tlnr-1o0kt61cqs.gz
+D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\027mcav4t1-xfflah5u5r.gz
+D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\58p6p8tlnr-dxuo9bj3pk.gz
+D:\מסמכים\לימודים\Core\Project\obj\Debug\net9.0\compressed\w61onso21h-yc8epaw582.gz

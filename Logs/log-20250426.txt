@@ -1,0 +1,907 @@
+[21:50:41 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:50:42 INF] Now listening on: http://localhost:5017
+[21:50:42 INF] Application started. Press Ctrl+C to shut down.
+[21:50:42 INF] Hosting environment: Development
+[21:50:42 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[21:50:54 INF] Request starting HTTP/1.1 GET http://localhost:5017/ - null null
+[21:50:54 WRN] Failed to determine the https port for redirect.
+[21:50:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/ - 404 0 null 769.2883ms
+[21:50:55 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/, Response status code: 404
+[21:51:07 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[21:51:07 INF] The file /index.html was not modified
+[21:51:07 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 304 null text/html 29.1392ms
+[21:51:07 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[21:51:07 INF] Request starting HTTP/1.1 GET http://localhost:5017/style/style.css - null null
+[21:51:07 INF] The file /js/login.js was not modified
+[21:51:07 INF] The file /style/style.css was not modified
+[21:51:07 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 304 null text/javascript 7.9133ms
+[21:51:07 INF] Request finished HTTP/1.1 GET http://localhost:5017/style/style.css - 304 null text/css 10.3041ms
+[21:51:07 INF] Request starting HTTP/1.1 GET http://localhost:5017/favicon.ico - null null
+[21:51:07 INF] Request finished HTTP/1.1 GET http://localhost:5017/favicon.ico - 404 0 null 7.8221ms
+[21:51:07 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5017/favicon.ico, Response status code: 404
+[21:51:14 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[21:51:14 INF] CORS policy execution successful.
+[21:51:14 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:51:14 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[21:51:14 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[21:51:14 INF] Executed action Project.Controllers.LoginController.Login (Project) in 94.2078ms
+[21:51:14 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:51:14 INF] Session started; Key:3bf9b9d8-800d-f2fa-d667-38783867fd33, Id:02a6ffaf-58c6-f855-6681-d2be892803be
+[21:51:14 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 133.7869ms
+[21:51:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:51:14 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:51:14 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:51:14 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:51:14 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 38.9613ms
+[21:51:14 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:51:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 91.8827ms
+[21:51:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[21:51:14 INF] The file /profile.html was not modified
+[21:51:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 4.2825ms
+[21:51:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[21:51:14 INF] The file /js/profile.js was not modified
+[21:51:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 304 null text/javascript 7.0295ms
+[21:51:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/books.js - null null
+[21:51:14 INF] The file /js/books.js was not modified
+[21:51:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/books.js - 304 null text/javascript 3.3135ms
+[21:51:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:51:14 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:51:14 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:51:14 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:51:14 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.7149ms
+[21:51:14 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:51:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.1319ms
+[21:51:14 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:51:14 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:51:14 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:51:14 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:51:14 INF] Executed action Project.Controllers.BookController.Get (Project) in 3.3261ms
+[21:51:14 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:51:14 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 14.7084ms
+[21:51:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[21:51:17 INF] The file /users.html was not modified
+[21:51:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 304 null text/html 7.3833ms
+[21:51:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:51:17 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[21:51:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5358 text/javascript 9.8366ms
+[21:52:03 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html - null null
+[21:52:03 INF] The file /index.html was not modified
+[21:52:03 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html - 304 null text/html 4.2481ms
+[21:52:08 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[21:52:08 INF] CORS policy execution successful.
+[21:52:08 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:52:08 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[21:52:08 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[21:52:08 INF] Executed action Project.Controllers.LoginController.Login (Project) in 10.7924ms
+[21:52:08 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:52:08 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 23.4489ms
+[21:52:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:52:08 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:52:08 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:52:08 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:52:08 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.2174ms
+[21:52:08 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:52:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 10.4853ms
+[21:52:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:52:08 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:52:08 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:52:08 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:52:08 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.3858ms
+[21:52:08 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:52:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 15.5345ms
+[21:52:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:52:08 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:52:08 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:52:08 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:52:08 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.9341ms
+[21:52:08 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:52:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 14.0834ms
+[21:52:12 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:52:12 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[21:52:12 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5155 text/javascript 34.6802ms
+[21:52:12 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:52:12 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:52:12 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:52:12 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:52:12 INF] Executed action Project.Controllers.UserController.Get (Project) in 4.8518ms
+[21:52:12 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:52:12 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 16.3143ms
+[21:53:41 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:53:41 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[21:53:41 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5359 text/javascript 9.1276ms
+[21:53:41 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:53:41 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:53:41 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:53:41 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:53:41 INF] Executed action Project.Controllers.UserController.Get (Project) in 3.3146ms
+[21:53:41 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:53:41 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 16.8707ms
+[21:53:50 INF] Application is shutting down...
+[21:53:54 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[21:53:54 INF] Now listening on: http://localhost:5017
+[21:53:54 INF] Application started. Press Ctrl+C to shut down.
+[21:53:54 INF] Hosting environment: Development
+[21:53:54 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[21:54:08 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[21:54:08 WRN] Failed to determine the https port for redirect.
+[21:54:08 INF] CORS policy execution successful.
+[21:54:08 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:54:08 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[21:54:08 INF] Accessing expired session, Key:3bf9b9d8-800d-f2fa-d667-38783867fd33
+[21:54:08 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[21:54:08 INF] Executed action Project.Controllers.LoginController.Login (Project) in 63.0039ms
+[21:54:08 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:54:08 INF] Session started; Key:3bf9b9d8-800d-f2fa-d667-38783867fd33, Id:7e94aeb8-3cea-01fe-17af-2496c9b2375e
+[21:54:08 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 159.0365ms
+[21:54:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:54:08 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:54:08 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:54:08 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:54:08 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 7.7625ms
+[21:54:08 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:54:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 67.9759ms
+[21:54:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:54:08 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:54:08 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:54:08 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:54:08 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.9779ms
+[21:54:08 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:54:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 22.4465ms
+[21:54:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:54:08 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:54:08 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:54:08 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:54:08 INF] Executed action Project.Controllers.BookController.Get (Project) in 4.2244ms
+[21:54:08 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:54:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 19.5371ms
+[21:54:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:54:10 INF] The file /js/users.js was not modified
+[21:54:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 13.1931ms
+[21:54:10 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:54:10 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:54:10 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:54:10 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:54:10 INF] Executed action Project.Controllers.UserController.Get (Project) in 7.4439ms
+[21:54:10 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:54:10 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 25.8184ms
+[21:55:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[21:55:06 INF] The file /users.html was not modified
+[21:55:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 304 null text/html 21.8495ms
+[21:55:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:55:06 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[21:55:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5439 text/javascript 31.9641ms
+[21:55:06 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:55:06 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:55:06 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:55:06 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:55:06 INF] Executed action Project.Controllers.UserController.Get (Project) in 8.5383ms
+[21:55:06 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:55:06 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 21.8236ms
+[21:55:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[21:55:08 INF] The file /users.html was not modified
+[21:55:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 304 null text/html 8.8229ms
+[21:55:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:55:08 INF] The file /js/users.js was not modified
+[21:55:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 3.6485ms
+[21:55:08 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:55:08 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:55:08 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:55:08 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:55:08 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.5133ms
+[21:55:08 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:55:08 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 11.2036ms
+[21:55:15 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:55:15 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:55:15 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:55:15 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:55:15 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.4882ms
+[21:55:15 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:55:15 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 18.7095ms
+[21:55:15 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:55:15 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:55:15 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:55:15 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:55:15 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.4708ms
+[21:55:15 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:55:15 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.5255ms
+[21:55:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:55:22 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:55:22 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:55:22 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:55:22 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.3867ms
+[21:55:22 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:55:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.2693ms
+[21:55:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:55:22 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:55:22 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:55:22 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:55:22 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.0146ms
+[21:55:22 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:55:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 14.8616ms
+[21:55:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:55:26 INF] The file /js/users.js was not modified
+[21:55:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 4.836ms
+[21:55:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:55:26 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:55:26 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:55:26 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:55:26 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.7659ms
+[21:55:26 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:55:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 12.6352ms
+[21:56:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[21:56:25 INF] The file /users.html was not modified
+[21:56:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 304 null text/html 7.8003ms
+[21:56:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:56:25 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[21:56:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5422 text/javascript 23.3593ms
+[21:56:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:56:25 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:56:25 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:56:25 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:56:25 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.3411ms
+[21:56:25 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:56:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 10.3282ms
+[21:56:45 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[21:56:45 INF] CORS policy execution successful.
+[21:56:45 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:56:45 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[21:56:45 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[21:56:45 INF] Executed action Project.Controllers.LoginController.Login (Project) in 3.4767ms
+[21:56:45 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[21:56:45 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 17.7813ms
+[21:56:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:56:45 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:56:45 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:56:45 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:56:45 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.4451ms
+[21:56:45 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:56:45 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 17.4633ms
+[21:56:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:56:45 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:56:45 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:56:45 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:56:45 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.9927ms
+[21:56:45 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:56:45 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.9692ms
+[21:56:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:56:45 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:56:45 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:56:45 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:56:45 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.0428ms
+[21:56:45 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:56:45 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 7.7926ms
+[21:56:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:56:50 INF] The file /js/users.js was not modified
+[21:56:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 6.8426ms
+[21:56:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:56:50 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:56:50 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:56:50 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:56:50 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.4234ms
+[21:56:50 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:56:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 20.6458ms
+[21:57:16 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[21:57:16 INF] The file /users.html was not modified
+[21:57:16 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 304 null text/html 8.2563ms
+[21:57:16 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:57:16 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[21:57:16 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5439 text/javascript 5.1853ms
+[21:57:16 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:57:16 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:57:16 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:57:16 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:57:16 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.368ms
+[21:57:16 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:57:16 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 8.2762ms
+[21:57:18 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:57:18 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:57:18 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:57:18 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:57:18 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.0625ms
+[21:57:18 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:57:18 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.454ms
+[21:57:18 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:57:18 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:57:18 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:57:18 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:57:18 INF] Executed action Project.Controllers.BookController.Get (Project) in 0.9895ms
+[21:57:18 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:57:18 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 7.236ms
+[21:57:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[21:57:25 INF] The file /js/users.js was not modified
+[21:57:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 6.6666ms
+[21:57:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[21:57:25 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:57:25 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[21:57:25 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:57:25 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.415ms
+[21:57:25 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[21:57:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 12.725ms
+[21:57:34 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[21:57:34 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:57:34 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[21:57:34 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[21:57:34 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.273ms
+[21:57:34 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[21:57:34 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.1022ms
+[21:57:34 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[21:57:34 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:57:34 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[21:57:34 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[21:57:34 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.2923ms
+[21:57:34 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[21:57:34 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.5633ms
+[22:06:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:06:17 INF] The file /js/users.js was not modified
+[22:06:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 4.3031ms
+[22:06:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:06:17 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:06:17 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:06:17 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:06:17 INF] Executed action Project.Controllers.UserController.Get (Project) in 3.9709ms
+[22:06:17 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:06:17 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 20.7385ms
+[22:06:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:06:24 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:06:24 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:06:24 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:06:24 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.9296ms
+[22:06:24 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:06:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 17.6466ms
+[22:06:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:06:24 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:06:24 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:06:24 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:06:24 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.2412ms
+[22:06:24 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:06:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 14.3099ms
+[22:08:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:08:55 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[22:08:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5754 text/javascript 28.1862ms
+[22:08:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:08:55 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:08:55 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:08:55 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:08:55 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.5313ms
+[22:08:55 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:08:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 9.5079ms
+[22:09:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:09:00 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:09:00 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:09:00 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:09:00 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.3739ms
+[22:09:00 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:09:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 16.6655ms
+[22:09:00 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:09:00 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:09:00 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:09:00 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:09:00 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.5679ms
+[22:09:00 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:09:00 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 14.873ms
+[22:09:02 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:09:02 INF] The file /js/users.js was not modified
+[22:09:02 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 8.2353ms
+[22:09:02 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:09:02 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:09:02 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:09:02 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:09:02 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.8745ms
+[22:09:02 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:09:02 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 10.1494ms
+[22:10:13 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:10:13 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:10:13 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:10:13 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:10:13 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.8517ms
+[22:10:13 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:10:13 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 15.0582ms
+[22:10:13 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:10:13 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:10:13 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:10:13 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:10:13 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.1373ms
+[22:10:13 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:10:13 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 8.105ms
+[22:10:15 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:10:15 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[22:10:15 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5767 text/javascript 5.705ms
+[22:10:15 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:10:15 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:10:15 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:10:15 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:10:15 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.8816ms
+[22:10:15 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:10:15 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 15.2376ms
+[22:10:33 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:10:33 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:10:33 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:10:33 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:10:33 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.2459ms
+[22:10:33 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:10:33 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 16.6127ms
+[22:10:33 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:10:33 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:10:33 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:10:33 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:10:33 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.1197ms
+[22:10:33 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:10:33 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 7.5513ms
+[22:14:47 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:14:47 INF] The file /profile.html was not modified
+[22:14:47 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 4.9579ms
+[22:14:47 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:14:47 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:14:47 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:14:47 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:14:47 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.8028ms
+[22:14:47 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:14:47 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 18.9821ms
+[22:14:47 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:14:47 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:14:47 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:14:47 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:14:47 INF] Executed action Project.Controllers.BookController.Get (Project) in 0.9539ms
+[22:14:47 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:14:47 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.3716ms
+[22:14:49 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:14:49 INF] The file /js/users.js was not modified
+[22:14:49 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 5.5831ms
+[22:14:49 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:14:49 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:14:49 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:14:49 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:14:49 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.546ms
+[22:14:49 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:14:49 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 22.7391ms
+[22:14:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:14:51 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:14:51 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:14:51 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:14:51 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.8977ms
+[22:14:51 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:14:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 19.8055ms
+[22:14:51 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:14:51 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:14:51 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:14:51 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:14:51 INF] Executed action Project.Controllers.BookController.Get (Project) in 3.1718ms
+[22:14:51 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:14:51 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 15.4515ms
+[22:14:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:14:56 INF] The file /profile.html was not modified
+[22:14:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 9.3999ms
+[22:14:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:14:56 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:14:56 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:14:56 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:14:56 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.181ms
+[22:14:56 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:14:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 13.158ms
+[22:14:56 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:14:56 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:14:56 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:14:56 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:14:56 INF] Executed action Project.Controllers.BookController.Get (Project) in 3.9946ms
+[22:14:56 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:14:56 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 17.3565ms
+[22:15:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:15:29 INF] The file /profile.html was not modified
+[22:15:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 7.3513ms
+[22:15:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:15:29 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:15:29 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:15:29 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:15:29 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 4.1356ms
+[22:15:29 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:15:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.3008ms
+[22:15:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:15:29 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:15:29 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:15:29 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:15:29 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.7091ms
+[22:15:29 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:15:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 13.3437ms
+[22:15:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:15:31 INF] The file /js/users.js was not modified
+[22:15:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 4.6719ms
+[22:15:31 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:15:31 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:15:31 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:15:31 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:15:31 INF] Executed action Project.Controllers.UserController.Get (Project) in 3.6379ms
+[22:15:31 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:15:31 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 15.3653ms
+[22:15:36 INF] Application is shutting down...
+[22:15:40 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:15:40 INF] Now listening on: http://localhost:5017
+[22:15:40 INF] Application started. Press Ctrl+C to shut down.
+[22:15:40 INF] Hosting environment: Development
+[22:15:40 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[22:15:52 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[22:15:52 WRN] Failed to determine the https port for redirect.
+[22:15:52 INF] CORS policy execution successful.
+[22:15:52 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[22:15:52 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[22:15:52 INF] Accessing expired session, Key:3bf9b9d8-800d-f2fa-d667-38783867fd33
+[22:15:52 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[22:15:52 INF] Executed action Project.Controllers.LoginController.Login (Project) in 65.689ms
+[22:15:53 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[22:15:53 INF] Session started; Key:3bf9b9d8-800d-f2fa-d667-38783867fd33, Id:8ac96507-a5e9-e455-3c8b-9c533c3dd446
+[22:15:53 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 169.3646ms
+[22:15:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:15:53 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:15:53 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:15:53 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:15:53 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 5.8904ms
+[22:15:53 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:15:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 61.5012ms
+[22:15:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:15:53 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:15:53 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:15:53 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:15:53 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.7707ms
+[22:15:53 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:15:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 22.9314ms
+[22:15:53 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:15:53 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:15:53 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:15:53 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:15:53 INF] Executed action Project.Controllers.BookController.Get (Project) in 5.3327ms
+[22:15:53 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:15:53 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 19.2359ms
+[22:32:17 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:32:18 INF] The file /profile.html was not modified
+[22:32:18 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 11.5187ms
+[22:32:18 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:32:18 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:18 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:32:18 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:32:18 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.2266ms
+[22:32:18 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:18 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 17.2271ms
+[22:32:18 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:32:18 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:18 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:32:18 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:18 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.0331ms
+[22:32:18 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:18 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 18.7486ms
+[22:32:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:32:22 INF] The file /js/users.js was not modified
+[22:32:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 17.6759ms
+[22:32:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:32:22 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:32:22 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:32:22 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:22 INF] Executed action Project.Controllers.UserController.Get (Project) in 5.3835ms
+[22:32:22 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:32:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 19.2383ms
+[22:32:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:32:24 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:24 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:32:24 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:32:24 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.3908ms
+[22:32:24 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 11.2133ms
+[22:32:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:32:24 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:24 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:32:24 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:24 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.7885ms
+[22:32:24 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.6303ms
+[22:32:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:32:26 INF] The file /profile.html was not modified
+[22:32:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 6.416ms
+[22:32:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:32:26 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:26 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:32:26 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:32:26 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.4299ms
+[22:32:26 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 9.3481ms
+[22:32:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:32:26 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:26 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:32:26 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:26 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.5204ms
+[22:32:26 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 12.6485ms
+[22:32:27 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:32:27 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:32:27 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:32:27 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:27 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.1759ms
+[22:32:27 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:32:27 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 13.4711ms
+[22:32:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:32:29 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:29 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:32:29 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:32:29 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.305ms
+[22:32:29 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 11.9438ms
+[22:32:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:32:29 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:29 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:32:29 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:29 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.3524ms
+[22:32:29 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 9.1567ms
+[22:32:30 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:32:30 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:32:30 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:32:30 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:30 INF] Executed action Project.Controllers.UserController.Get (Project) in 3.1783ms
+[22:32:30 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:32:30 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 19.3173ms
+[22:32:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:32:50 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:50 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:32:50 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:32:50 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.3084ms
+[22:32:50 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:32:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.4971ms
+[22:32:50 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:32:50 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:50 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:32:50 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:32:50 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.0242ms
+[22:32:50 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:32:50 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.779ms
+[22:33:07 INF] Application is shutting down...
+[22:33:11 INF] User profile is available. Using 'C:\Users\Tamar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:33:11 INF] Now listening on: http://localhost:5017
+[22:33:11 INF] Application started. Press Ctrl+C to shut down.
+[22:33:11 INF] Hosting environment: Development
+[22:33:11 INF] Content root path: D:\מסמכים\לימודים\Core\Project
+[22:33:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/index.html? - null null
+[22:33:29 WRN] Failed to determine the https port for redirect.
+[22:33:29 INF] Sending file. Request path: '/index.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\index.html'
+[22:33:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/index.html? - 200 617 text/html 35.7637ms
+[22:33:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/login.js - null null
+[22:33:29 INF] Request starting HTTP/1.1 GET http://localhost:5017/style/style.css - null null
+[22:33:29 INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\login.js'
+[22:33:29 INF] Sending file. Request path: '/style/style.css'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\style\style.css'
+[22:33:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/login.js - 200 1602 text/javascript 24.243ms
+[22:33:29 INF] Request finished HTTP/1.1 GET http://localhost:5017/style/style.css - 200 3319 text/css 12.6371ms
+[22:33:36 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[22:33:36 INF] CORS policy execution successful.
+[22:33:36 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[22:33:36 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[22:33:36 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[22:33:36 INF] Executed action Project.Controllers.LoginController.Login (Project) in 50.9867ms
+[22:33:36 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[22:33:36 INF] Session started; Key:bd6c238e-7f5f-6fc9-c098-b4eba1ad267f, Id:f53ae99c-8a13-2516-2f87-e1ebb92690a6
+[22:33:36 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 115.0125ms
+[22:33:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:33:36 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:33:36 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:33:36 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:33:36 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 5.9132ms
+[22:33:36 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:33:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 52.4046ms
+[22:33:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:33:36 INF] Sending file. Request path: '/profile.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\profile.html'
+[22:33:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 200 1387 text/html 6.869ms
+[22:33:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[22:33:36 INF] Sending file. Request path: '/js/profile.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\profile.js'
+[22:33:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 200 3889 text/javascript 6.9789ms
+[22:33:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/books.js - null null
+[22:33:36 INF] Sending file. Request path: '/js/books.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\books.js'
+[22:33:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/books.js - 200 1625 text/javascript 7.6881ms
+[22:33:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:33:36 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:33:36 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:33:36 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:33:36 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.8161ms
+[22:33:36 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:33:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 14.8535ms
+[22:33:36 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:33:36 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:33:36 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:33:36 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:33:36 INF] Executed action Project.Controllers.BookController.Get (Project) in 7.757ms
+[22:33:36 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:33:36 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 22.9468ms
+[22:33:43 INF] Request starting HTTP/1.1 GET http://localhost:5017/users.html - null null
+[22:33:43 INF] Sending file. Request path: '/users.html'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\users.html'
+[22:33:43 INF] Request finished HTTP/1.1 GET http://localhost:5017/users.html - 200 1907 text/html 27.5237ms
+[22:33:43 INF] Request starting HTTP/1.1 GET http://localhost:5017/style/style.css - null null
+[22:33:43 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:33:43 INF] The file /style/style.css was not modified
+[22:33:43 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[22:33:43 INF] Request finished HTTP/1.1 GET http://localhost:5017/style/style.css - 304 null text/css 6.179ms
+[22:33:43 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5791 text/javascript 7.5815ms
+[22:33:43 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:33:43 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:33:43 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:33:43 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:33:43 INF] Executed action Project.Controllers.UserController.Get (Project) in 4.1165ms
+[22:33:43 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:33:43 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 19.413ms
+[22:33:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:33:45 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:33:45 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:33:45 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:33:45 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 3.0541ms
+[22:33:45 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:33:45 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 16.0843ms
+[22:33:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:33:45 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:33:45 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:33:45 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:33:45 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.6519ms
+[22:33:45 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:33:45 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 12.596ms
+[22:33:47 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:33:47 INF] The file /js/users.js was not modified
+[22:33:47 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 6.8833ms
+[22:33:47 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:33:47 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:33:47 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:33:47 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:33:47 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.3521ms
+[22:33:47 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:33:47 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 9.8566ms
+[22:34:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/style/style.css - null null
+[22:34:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[22:34:22 INF] The file /style/style.css was not modified
+[22:34:22 INF] The file /js/profile.js was not modified
+[22:34:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/style/style.css - 304 null text/css 7.9762ms
+[22:34:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 304 null text/javascript 9.5585ms
+[22:34:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:34:22 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:22 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:34:22 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:34:22 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 4.1317ms
+[22:34:22 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 17.9748ms
+[22:34:22 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:34:22 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:22 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:34:22 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:34:22 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.7842ms
+[22:34:22 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:22 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.9323ms
+[22:34:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:34:25 INF] The file /js/users.js was not modified
+[22:34:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 7.3847ms
+[22:34:25 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:34:25 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:34:25 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:34:25 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:34:25 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.9259ms
+[22:34:25 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:34:25 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 16.2622ms
+[22:34:27 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:34:27 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:27 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:34:27 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:34:27 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.6157ms
+[22:34:27 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:27 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 13.1755ms
+[22:34:27 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:34:27 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:27 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:34:27 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:34:27 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.6668ms
+[22:34:27 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:27 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.5102ms
+[22:34:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:34:52 INF] The file /profile.html was not modified
+[22:34:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 7.4021ms
+[22:34:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/style/style.css - null null
+[22:34:52 INF] The file /style/style.css was not modified
+[22:34:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/style/style.css - 304 null text/css 2.922ms
+[22:34:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:34:52 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:52 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:34:52 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:34:52 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.2966ms
+[22:34:52 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 9.1314ms
+[22:34:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:34:52 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:52 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:34:52 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:34:52 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.1586ms
+[22:34:52 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 7.9639ms
+[22:34:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:34:55 INF] Sending file. Request path: '/js/users.js'. Physical path: 'D:\מסמכים\לימודים\Core\Project\wwwroot\js\users.js'
+[22:34:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 200 5418 text/javascript 31.4761ms
+[22:34:55 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:34:55 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:34:55 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:34:55 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:34:55 INF] Executed action Project.Controllers.UserController.Get (Project) in 1.4095ms
+[22:34:55 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:34:55 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 15.3317ms
+[22:34:57 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:34:57 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:57 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:34:57 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:34:57 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.3675ms
+[22:34:57 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:34:57 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 12.7178ms
+[22:34:57 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:34:57 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:57 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:34:57 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:34:57 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.6316ms
+[22:34:57 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:34:57 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.513ms
+[22:44:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/profile.html - null null
+[22:44:45 INF] The file /profile.html was not modified
+[22:44:45 INF] Request finished HTTP/1.1 GET http://localhost:5017/profile.html - 304 null text/html 8.1826ms
+[22:44:45 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:44:45 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:44:45 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:44:46 INF] Accessing expired session, Key:3bf9b9d8-800d-f2fa-d667-38783867fd33
+[22:44:46 INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[22:44:46 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 15.6347ms
+[22:44:46 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:44:46 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 401 null application/problem+json; charset=utf-8 27.5804ms
+[22:44:52 INF] Request starting HTTP/1.1 POST http://localhost:5017/api/login - application/json 37
+[22:44:52 INF] CORS policy execution successful.
+[22:44:52 INF] Executing endpoint 'Project.Controllers.LoginController.Login (Project)'
+[22:44:52 INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(Project.Models.LoginRequest) on controller Project.Controllers.LoginController (Project).
+[22:44:52 INF] Accessing expired session, Key:3bf9b9d8-800d-f2fa-d667-38783867fd33
+[22:44:52 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[22:44:52 INF] Executed action Project.Controllers.LoginController.Login (Project) in 3.0745ms
+[22:44:52 INF] Executed endpoint 'Project.Controllers.LoginController.Login (Project)'
+[22:44:52 INF] Session started; Key:3bf9b9d8-800d-f2fa-d667-38783867fd33, Id:738426d2-69b2-7b9f-bbd2-736eb73ae194
+[22:44:52 INF] Request finished HTTP/1.1 POST http://localhost:5017/api/login - 200 null application/json; charset=utf-8 16.2565ms
+[22:44:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:44:52 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:44:52 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:44:52 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:44:52 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 0.9607ms
+[22:44:52 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:44:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 6.9377ms
+[22:44:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:44:52 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:44:52 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:44:52 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:44:52 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 1.0161ms
+[22:44:52 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:44:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 19.2901ms
+[22:44:52 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:44:52 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:44:52 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:44:52 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:44:52 INF] Executed action Project.Controllers.BookController.Get (Project) in 2.1332ms
+[22:44:52 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:44:52 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 11.7786ms
+[22:46:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/style/style.css - null null
+[22:46:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/users.js - null null
+[22:46:24 INF] The file /js/users.js was not modified
+[22:46:24 INF] The file /style/style.css was not modified
+[22:46:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/users.js - 304 null text/javascript 11.8548ms
+[22:46:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/style/style.css - 304 null text/css 13.0227ms
+[22:46:24 INF] Request starting HTTP/1.1 GET http://localhost:5017/user - null null
+[22:46:24 INF] Executing endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:46:24 INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.User]] Get() on controller Project.Controllers.UserController (Project).
+[22:46:24 INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.User, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:46:24 INF] Executed action Project.Controllers.UserController.Get (Project) in 2.4223ms
+[22:46:24 INF] Executed endpoint 'Project.Controllers.UserController.Get (Project)'
+[22:46:24 INF] Request finished HTTP/1.1 GET http://localhost:5017/user - 200 null application/json; charset=utf-8 18.4451ms
+[22:46:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/js/profile.js - null null
+[22:46:26 INF] The file /js/profile.js was not modified
+[22:46:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/js/profile.js - 304 null text/javascript 6.5911ms
+[22:46:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/user/me - null null
+[22:46:26 INF] Executing endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:46:26 INF] Route matched with {action = "GetMyProfile", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Project.Models.User] GetMyProfile() on controller Project.Controllers.UserController (Project).
+[22:46:26 INF] Executing OkObjectResult, writing value of type 'Project.Models.User'.
+[22:46:26 INF] Executed action Project.Controllers.UserController.GetMyProfile (Project) in 2.7553ms
+[22:46:26 INF] Executed endpoint 'Project.Controllers.UserController.GetMyProfile (Project)'
+[22:46:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/user/me - 200 null application/json; charset=utf-8 18.8156ms
+[22:46:26 INF] Request starting HTTP/1.1 GET http://localhost:5017/book - null null
+[22:46:26 INF] Executing endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:46:26 INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Project.Models.Book]] Get() on controller Project.Controllers.BookController (Project).
+[22:46:26 INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Project.Models.Book, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[22:46:26 INF] Executed action Project.Controllers.BookController.Get (Project) in 1.6271ms
+[22:46:26 INF] Executed endpoint 'Project.Controllers.BookController.Get (Project)'
+[22:46:26 INF] Request finished HTTP/1.1 GET http://localhost:5017/book - 200 null application/json; charset=utf-8 10.6789ms

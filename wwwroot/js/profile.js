@@ -17,12 +17,11 @@ window.onload = async () => {
     document.getElementById("profile").innerText = `שלום ${user.name}, תפקיד: ${user.role}`;
     
     if (user.role === "Admin") {
-        const link = document.createElement("a");
-        link.href = "users.html";
-        link.innerText = "ניהול משתמשים";
-        link.style.display = "inline-block";
-        link.style.marginRight = "20px";
-        document.body.insertBefore(link, document.getElementById("bookList"));
+        const adminButton = document.createElement("button");
+        adminButton.innerText = "ניהול משתמשים 👥";
+        adminButton.className = "nav-button"; // נוסיף קלאס לCSS
+        adminButton.onclick = () => window.location.href = "users.html";
+        document.body.insertBefore(adminButton, document.getElementById("bookList"));
     }
 
     await loadBooks("bookList");

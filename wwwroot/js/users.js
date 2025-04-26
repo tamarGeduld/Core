@@ -1,4 +1,9 @@
 window.onload = async () => {
+    const backButton = document.createElement("button");
+    backButton.innerText = "🔙 חזרה לספרים";
+    backButton.onclick = () => window.location.href = "profile.html";
+    document.body.insertBefore(backButton, document.getElementById("bookList"));
+
     const token = localStorage.getItem("token");
     if (!token) return window.location.href = "index.html";
 
@@ -80,6 +85,7 @@ window.onload = async () => {
         form.style.display = form.style.display === "none" ? "block" : "none";
     });
 };
+
 
 async function loadUsers() {
     const token = localStorage.getItem("token");
