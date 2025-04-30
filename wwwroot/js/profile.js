@@ -86,7 +86,7 @@ window.onload = async () => {
 };
 
 // הודעה זמנית שנעלמת אחרי כמה שניות
-function showMessage(msg) {
+const showMessage = (msg)=> {
     let m = document.getElementById("messageBox");
     if (!m) {
         m = document.createElement("div");

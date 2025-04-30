@@ -87,7 +87,7 @@ window.onload = async () => {
 };
 
 
-async function loadUsers() {
+ const loadUsers = async() =>{
     const token = localStorage.getItem("token");
     const res = await fetch("http://localhost:5017/user", {
         headers: { "Authorization": `Bearer ${token}` }
@@ -142,6 +142,6 @@ window.deleteUser = async (id) => {
     setTimeout(() => message.innerText = "", 3000);
 };
 
-function cancelEdit() {
+const cancelEdit = () => {
     document.getElementById("editUserFormContainer").style.display = "none";
 }

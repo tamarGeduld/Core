@@ -1,4 +1,4 @@
-export async function loadBooks(containerId = "bookList") {
+export  const loadBooks=async(containerId = "bookList") =>{
     const token = localStorage.getItem("token");
     const res = await fetch("http://localhost:5017/book", {
         headers: { "Authorization": `Bearer ${token}` }
@@ -21,7 +21,7 @@ export async function loadBooks(containerId = "bookList") {
     });
 }
 
-export async function deleteBook(id) {
+export  const deleteBook =async (id)=> {
     const token = localStorage.getItem("token");
     const res = await fetch(`http://localhost:5017/book/${id}`, {
         method: "DELETE",
@@ -34,7 +34,7 @@ export async function deleteBook(id) {
     }
 }
 
-export function editBook(id, name, author) {
+export const editBook = (id, name, author)=> {
     document.getElementById("editBookId").value = id;
     document.getElementById("editBookName").value = name;
     document.getElementById("editBookAuthor").value = author;
